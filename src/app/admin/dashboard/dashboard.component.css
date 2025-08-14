@@ -1,0 +1,90 @@
+/* ====== KPI CARDS ====== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.kpi.royal {
+  background: linear-gradient(145deg, #0b3d0b, #1f5e1f); /* Dark green shades */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Playfair Display', serif;
+}
+
+.kpi.royal:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.kpi mat-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #90ee90; /* Light green icons */
+}
+
+/* ====== QUICK ACTIONS ====== */
+.grid-one {
+  margin-bottom: 40px;
+}
+
+.actions-card.royal {
+  background: #0b3d0b; /* Dark green base */
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.actions-card.royal h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #90ee90; /* Light green title */
+}
+
+.action-buttons button {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #90ee90, #0b3d0b); /* Light to dark green */
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.action-buttons button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ====== LATEST DONATIONS TABLE ====== */
+.table-card.royal {
+  background: #1f5e1f; /* Dark green */
+  color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  font-family: 'Playfair Display', serif;
+}
+
+.royal-table th {
+  color: #90ee90; /* Light green headers */
+  font-weight: 700;
+}
+
+.royal-table td {
+  color: white;
+  font-weight: 500;
+}
+
+.royal-table tr:hover {
+  background: rgba(144, 238, 144, 0.15); /* Light green hover */
+  transition: 0.3s;
+}

@@ -1,0 +1,153 @@
+<app-header></app-header>
+<section class="hero" @fadeSlide>
+    <h1 style="color: #205e2a;">About the Fako  <span style="color:#4ac462 ; text-decoration: underline;">Multipurpose </span> <br>Cultural Center </h1>
+    <p style="color: black;">The beating heart of Fako’s culture, empowerment & innovation.</p>
+  </section>
+  
+  <!-- ───────── Mission / Vision / Values Tabs ───────── -->
+  <section class="tabs">
+    <nav>
+      <button [class.active]="currentTab() === 'mission'" (click)="setTab('mission')">Mission</button>
+      <button [class.active]="currentTab() === 'vision'"  (click)="setTab('vision')">Vision</button>
+      <button [class.active]="currentTab() === 'values'"  (click)="setTab('values')">Values</button>
+    </nav>
+  
+    <div class="tab-content">
+      <div *ngIf="currentTab() === 'mission'" @fadeSlide>
+        <p>To safeguard Fako’s cultural heritage while equipping our people—especially youth and women—with skills to thrive in a global economy.</p>
+      </div>
+      <div *ngIf="currentTab() === 'vision'" @fadeSlide>
+        <p>A vibrant, self-reliant community where culture drives creativity, unity & socio-economic growth.</p>
+      </div>
+      <div *ngIf="currentTab() === 'values'" @fadeSlide>
+        <ul>
+          <li>Cultural Pride</li><li>Inclusivity</li><li>Innovation</li><li>Sustainability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ───────── Milestones Timeline ───────── -->
+  <section class="timeline" @timelineAnim>
+    <h2>Our Journey</h2>
+    <ul>
+      <li *ngFor="let m of milestones" class="timeline-item">
+        <span class="dot"></span>
+        <div class="content">
+          <h4>{{ m.year }}</h4>
+          <p>{{ m.text }}</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  
+
+<!-- ===================== FMCC Activities (Text-only, Animated) ===================== -->
+<section id="activities" class="activities-section">
+  <div class="section-header">
+    <h2 class="section-title">FMCC Activities</h2>
+    <p class="section-intro">
+      At the Fako Multipurpose Cultural Centre, our programs nurture creativity, strengthen community,
+      and drive sustainable progress. Explore how we make an impact:
+    </p>
+  </div>
+
+  <!-- Animate always, based on list size -->
+  <div class="activities-grid" >
+    <div
+      class="activity-card"
+      *ngFor="let activity of activities; index as i"
+      [@fadeSlide] 
+    >
+      <div class="activity-number">
+        {{ i + 1 | number:'2.0' }}
+      </div>
+
+      <div class="activity-body">
+        <h3 class="activity-title">
+          <span class="title-accent"></span>
+          {{ activity.title }}
+        </h3>
+
+        <p class="activity-description">
+          {{ activity.description }}
+        </p>
+
+        <div class="activity-meta">
+          <span class="meta-chip">FMCC • Community</span>
+          <span class="meta-dot"></span>
+          <span class="meta-chip">Inclusive • Impact</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== /FMCC Activities (Text-only, Animated) ===================== -->
+
+
+  
+
+  <!-- ───────── Team ───────── -->
+  <section class="team">
+    <h2>Key Figures of the Fmcc</h2>
+    <div class="grid">
+      <div class="card" *ngFor="let t of team">
+        <div class="card-inner">
+          <div class="card-front">
+            <img [src]="t.img" [alt]="t.name" />
+            <h4>{{ t.name }}</h4>
+            <span>{{ t.role }}</span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="women-education" class="women-education-section">
+  <div class="section-header">
+    <h2 class="section-title">Women & Education</h2>
+    <p class="section-intro" style="color: black;">
+      Celebrating visionary women who shape education, mentorship, and empowerment in Fako, inspiring generations.
+    </p>
+  </div>
+
+  <div class="women-grid">
+
+    <!-- Woman 1: Min Nalova Lyonga -->
+    <div class="woman-card">
+      <div class="woman-image">
+        <img src="assets/Nalo.jpeg" alt="Min Nalova Lyonga">
+      </div>
+      <div class="woman-content">
+        <h3 class="woman-name">Min Nalova Lyonga</h3>
+       <p class="woman-description">
+  Professor Pauline Nalova Lyonga Egbe is one of Cameroon’s most influential figures in education and social development, with a lifelong commitment to empowering youth and advancing educational standards across the nation. Born in the Fako Division of the South West Region, she has consistently demonstrated visionary leadership and unwavering dedication to the development of young people, particularly young women. Her formative years at the Queen of the Rosary Secondary School in Okoyong, Mamfe, and subsequent studies at the Cameroon College of Arts Science and Technology (CCAST) in Bambili laid the foundation for a remarkable academic journey. She earned a Bachelor’s degree in English Literature from the University of Yaoundé, followed by a Master’s in African Literature from the University of Sheffield in the United Kingdom, and a PhD in English Literature from the University of Michigan, USA, giving her a rich blend of international and local academic perspectives. Returning to Cameroon, she embarked on an illustrious academic career, holding pivotal roles including Director of Business Affairs, Vice-Rector, and ultimately Rector of the University of Buea, where she championed educational reforms, improved administrative efficiency, and oversaw key infrastructure developments to enhance the learning environment. In March 2018, she was appointed Minister of Secondary Education, a role in which she has introduced transformative initiatives to modernize and digitize the education system, such as the Skills Development Project, online exam registration systems, digital fee payment platforms, and progressive policies that allow pregnant students to continue their studies, thereby promoting inclusivity and equal opportunity. Beyond her ministerial duties, she remains deeply connected to her home region of Fako, actively supporting community projects, scholarship programs, and youth mentorship initiatives that inspire and empower the next generation. She has also played a key role in promoting cultural heritage, contributing to events like the Mbando Festival, which celebrates the rich traditions and artistic expressions of the Bakweri people, bridging education with cultural awareness. Professor Nalova Lyonga’s outstanding leadership has been recognized nationally, earning her accolades such as the “Woman of the Year” award in 2022 and “Best Minister of 2023” award in 2024. Her tireless work, both in government and academia, has transformed countless lives, inspired communities, and set a benchmark for excellence, making her a role model whose impact resonates throughout Fako and across Cameroon. Through her career, she exemplifies the power of dedication, vision, and compassion in shaping education, fostering equity, and preserving cultural identity, leaving an enduring legacy that continues to inspire generations of students, educators, and community leaders.
+</p>
+
+      </div>
+    </div>
+
+    <!-- Woman 2: Prof Dorothy Limunga Njuema -->
+    <div class="woman-card reverse">
+      <div class="woman-image">
+        <img src="assets/other woman.PNG" alt="Prof Dorothy Limunga Njuema">
+      </div>
+      <div class="woman-content">
+        <h3 class="woman-name">Prof Dorothy Limunga Njuema</h3>
+        <p class="woman-description">
+  Professor Dorothy Limunga Njeuma, née Effange, is a distinguished Cameroonian academic and public figure whose contributions to education, culture, and community development have left an indelible mark on the Fako Division and beyond. Born on June 26, 1943, in Buea, Cameroon, she pursued her early education at Queen's School in Enugu, Nigeria, due to the absence of secondary schools for girls in Cameroon at the time. She later earned a Bachelor of Science degree in Biology from Brown University in the United States, followed by a PhD in Zoology from University College London. Returning to Cameroon in 1970, she embarked on a prolific academic career, becoming an associate professor of Genetics and Embryology at the University of Yaoundé. Her leadership journey continued as she served as Vice Minister of National Education from 1975 to 1985, becoming one of the few women in the government at that time. In 1988, she was appointed Director General of the Buea University Centre, and in 1993, she became the first Vice-Chancellor of the newly established University of Buea, a position she held until 2005. Under her stewardship, the university gained national and international recognition for its academic excellence and infrastructural development. Beyond her academic and administrative roles, Professor Njeuma has been a staunch advocate for the preservation and promotion of the cultural heritage of the Fako Division. She has played a pivotal role in the revival of the Mbando Festival, an ancient cultural celebration of the Bakweri people, which had been dormant for several years. Collaborating with traditional rulers, community leaders, and cultural enthusiasts, she has been instrumental in organizing events that reconnect the Fako people with their cultural roots, fostering unity and pride within the community. Her efforts in cultural advocacy are complemented by her active participation in community development initiatives, where she has supported various programs aimed at improving education, healthcare, and infrastructure in the Fako Division. Professor Njeuma's legacy is one of unwavering dedication to the advancement of education, the empowerment of women, and the preservation of cultural identity. Her life's work continues to inspire generations of Cameroonians to strive for excellence and to value their heritage.
+</p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+ 
+  
+  <app-footer></app-footer>

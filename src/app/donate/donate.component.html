@@ -1,0 +1,157 @@
+<app-header></app-header>
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 style="color: #4ac462;"><span style="color: green; text-decoration: underline;">Support</span> the Fako <span style="color: green; text-decoration: underline;">Multipurpose </span> <br>Center
+    (FMCC)</h1>
+      <p>Together we preserve Fako’s culture &amp; empower tomorrow’s talent.</p>
+      <button  style="margin-left: 140px; margin-top: 50px; color: white; background: #4ac462; "
+       mat-raised-button color="primary" (click)="scrollToForm()">Donate Now</button>
+    </div>
+  </section>
+  
+ 
+ <!-- ─────────── FUND-GOAL HERO ─────────── -->
+<section class="goal-hero">
+  <h2 class="goal-heading" style="color: #4ac462;">2025 Cultural Centre <span style="color: green; text-decoration: underline;">Fund Goal</span> </h2>
+
+  <!-- Circular progress -->
+  <div class="progress-wrapper">
+    <mat-progress-spinner
+      class="goal-spinner"
+      mode="determinate"
+      [value]="progress"
+      diameter="140"
+      strokeWidth="8"
+      color="primary">
+    </mat-progress-spinner>
+    <div class="goal-center">
+      {{ progress | number:'1.0-0' }}%
+    </div>
+  </div>
+
+  <p class="goal-text">
+    <strong>{{ raised }}</strong>
+    raised of {{goal}}
+   
+  </p>
+</section>
+
+<!-- ─────────── DONOR SUMMARY SECTION ─────────── -->
+<section class="donor-summary">
+  <h2 style="text-align: center; color: #4ac462;">Donor Highlights</h2>
+
+  <div class="summary-cards">
+    <div class="summary-card">
+      <h3>{{ totalDonors }}</h3>
+      <p>People have donated</p>
+    </div>
+    <div class="summary-card">
+      <h3>{{ raised | currency:'XAF':'symbol':'1.0-0' }}</h3>
+      <p>Total amount raised</p>
+    </div>
+  </div>
+
+  
+
+  <!-- Download Button -->
+  <div class="download-wrapper">
+    <a href="assets/MbandoContributions.xlsx" download class="download-btn">
+      📥 Download Full Donation Report
+    </a>
+  </div>
+</section>
+
+
+<!-- ─────────── DONATION FORM ─────────── -->
+<section class="donation-card">
+  <h2 class="form-heading" style="text-align: center; color: #4ac462;">Make a Donation</h2>
+<div class="payment-container">
+  <h2>Choose Your Payment Method</h2>
+
+  <div class="button-group">
+    <button (click)="showForm('momo')" [class.active]="paymentType === 'momo'">Pay with MoMo</button>
+    <button (click)="showForm('bank')" [class.active]="paymentType === 'bank'">Pay with Bank</button>
+  </div>
+
+  <!-- ✅ Error Image on MoMo Payment Failure -->
+  <div *ngIf="showErrorImage && paymentType === 'momo'" class="error-image-container">
+    <img style="width: 380px; height: 450px;" src="assets/MOMO.png" alt="Payment Failed" class="error-image">
+    <p class="error-text">Payment failed. Please try again.</p>
+  </div>
+
+  <!-- ✅ MoMo Form (hidden if error image is displayed) -->
+  <form *ngIf="paymentType === 'momo' && !showErrorImage" [formGroup]="momoForm" (ngSubmit)="onSubmit()" class="form-section">
+    <h3>MoMo Payment</h3>
+
+   <section id="momo" class="momo-section">
+  <div class="momo-header">
+    <h2 class="momo-title">Support FMCC via MTN Mobile Money</h2>
+    <p class="momo-subtitle">
+      You can contribute and help us nurture creativity, preserve culture, and empower the youth.
+      Choose one of our trusted Momo accounts:
+    </p>
+  </div>
+
+  <div class="momo-cards">
+    <!-- Account 1 -->
+    <div class="momo-card">
+      <div class="momo-icon">📱</div>
+      <div class="momo-info">
+        <h3 class="momo-name">EFFANGE Epse Mbella Ngowo Elsie</h3>
+        <h1  class="momo-number"> 674 063 884</h1>
+      </div>
+    </div>
+
+    <!-- Account 2 -->
+    <div class="momo-card">
+      <div class="momo-icon">💵</div>
+      <div class="momo-info">
+        <h3 class="momo-name">Samuel Njie Kale</h3>
+        <h1 class="momo-number"> 677 880 753</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </form>
+
+  <p *ngIf="responseMessage" class="info-message">{{ responseMessage }}</p>
+
+  <!-- Success Modal -->
+  <div *ngIf="showSuccess" class="overlay">
+    <div class="modal">
+      <h2>Payment Request Sent ✅</h2>
+      <p>Please approve the MoMo prompt on your phone.</p>
+      <button (click)="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <!-- Bank Form -->
+  <form *ngIf="paymentType === 'bank'" (ngSubmit)="submitBank()" #bankForm="ngForm" class="form-section">
+  <section id="bank-payment" class="payment-section">
+  <div class="section-header">
+    <h2 class="section-title">Bank Payment</h2>
+    <p class="section-intro">
+      For direct bank transfers, please use the details below. Your contributions help support FMCC initiatives and community projects.
+    </p>
+  </div>
+
+  <div class="payment-card">
+    <div class="payment-icon">
+      <i class="fas fa-university"></i>
+    </div>
+    <div class="payment-details">
+      <p><strong>Account Name:</strong> PHAKO CREDIT UTILITY COOPERATIVE SOCIETY</p>
+      <p><strong>Account Number:</strong> 10025 00043 15101083505 40</p>
+      <p><strong>Bank Name:</strong> NFC Bank</p>
+    </div>
+  </div>
+</section>
+
+  </form>
+</div>
+</section>
+
+  
+  <app-footer></app-footer>

@@ -1,0 +1,430 @@
+/* ====== Bank Payment Section (Stunning Card) ====== */
+.payment-section {
+  background: linear-gradient(135deg, #fef9f4, #fff3e6);
+  padding: 80px 20px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  color: #0b1a2b;
+  margin-bottom: 60px;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.section-title {
+  font-size: clamp(32px, 3vw, 48px);
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #0b1a2b;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #1a2c44;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Card */
+.payment-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+  padding: 30px 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 35px 80px rgba(0,0,0,0.2);
+}
+
+/* Icon */
+.payment-icon {
+  font-size: 3rem;
+  color: #39d98a;
+  flex-shrink: 0;
+}
+
+/* Details */
+.payment-details p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 8px 0;
+  color: #0b1a2b;
+}
+
+.payment-details strong {
+  color: #1ea868;
+}
+
+/* Decorative floating shapes */
+.payment-section::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 200px;
+  height: 200px;
+  background: rgba(57, 217, 138, 0.12);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.payment-section::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 150px;
+  height: 150px;
+  background: rgba(30, 168, 104, 0.18);
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .payment-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 20px;
+  }
+  .payment-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .section-intro {
+    font-size: 1rem;
+  }
+  .payment-details p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* ====== FMCC Mobile Money Section ====== */
+.momo-section {
+  background: linear-gradient(135deg, #ff9a00, #ff6a00);
+  padding: 80px 20px;
+  border-radius: 24px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.momo-header {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.momo-title {
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 900;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #fff8d6, #ffd24d);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 16px;
+}
+
+.momo-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+}
+
+.momo-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.momo-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 24px 32px;
+  width: 280px;
+  
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(12px);
+}
+
+.momo-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+}
+
+.momo-icon {
+  font-size: 48px;
+  background: radial-gradient(circle, #ffd24d, #ff9a00);
+  padding: 14px;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(255,255,255,0.2);
+}
+
+.momo-info {
+  text-align: left;
+}
+
+.momo-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.momo-number {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #fff9cc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .momo-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .momo-card {
+    width: 90%;
+  }
+}
+
+
+.donor-summary {
+  padding: 60px 20px;
+  background: #f0fff3;
+  text-align: center;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.summary-card {
+  background: #fff;
+  border: 2px solid #4ac462;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.summary-card h3 {
+  font-size: 2rem;
+  color: #25993c;
+  margin-bottom: 10px;
+}
+
+.donor-table {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.donor-table th, .donor-table td {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  color: #222;
+}
+
+.download-wrapper {
+  margin-top: 30px;
+}
+
+.download-btn {
+  padding: 12px 25px;
+  background-color: #4ac462;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.download-btn:hover {
+  background-color: #25993c;
+}
+
+.section {
+    padding: 4rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #c15200;            
+  }
+  
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    min-height: 50vh;
+    background: linear-gradient(to bottom, rgb(77, 255, 151),#d1ffcb);
+    background: linear-gradient(to bottom,#6cfa73a2, #ffffff);
+    display: flex;
+  
+   
+    padding: 3rem 1rem;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+
+
+  .goal-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: black;
+  }
+  .goal-heading   { color: green; margin-bottom: 16px; }
+  .progress-wrapper {
+    position: relative;
+    width: 140px; height: 140px;
+    margin: 0 auto 12px;
+  }
+  .goal-spinner   { transform: rotate(-90deg); } 
+  .goal-center    {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem; font-weight: 600; color: green;
+  }
+  .goal-text      { font-size: 1rem; color: #444; }
+  
+
+  
+  /* ---------- Responsive ---------- */
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2.25rem; }
+    .hero p { font-size: 1.1rem; }
+  }
+  .payment-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-group button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #51ec51;
+    color: #2e7d32;
+    font-weight: 600;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #2e7d32;
+    border-radius: 10px;
+  }
+  
+ 
+  input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline-color: #2e7d32;
+  }
+  
+  button[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #51ec51;
+    color: #2e7d32;
+  }
+
+  .form-section input { display:block; margin:.5rem 0; padding:.5rem; width:100%; }
+.spinner{border:4px solid #eee;border-top:4px solid #4ac462;border-radius:50%;width:24px;height:24px;animation:spin .8s linear infinite;margin:.5rem auto}
+@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.info{margin:.5rem 0;font-weight:bold}
+.overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:#0005;display:flex;align-items:center;justify-content:center}
+.modal{background:#fff;padding:2rem;border-radius:8px;text-align:center}
