@@ -1,191 +1,202 @@
 <app-header></app-header>
 
+<section class="hero">
+  <div class="hero-left">
+    <h1 @fadeSlide>
+      Fako. <span class="underline" style="color: #25993c;">Multipurpose.</span><br />Cultural Center (FMCC)
+    </h1>
+    <p @fadeSlide>
+      Fako Multipurpose Cultural Center is a vibrant hub for cultural, social, and community activities located in the heart of the Fako division.
+    </p>
 
-
-  <section class="hero" >
-    <div class="hero-left">
-     
-  
-      <h1 @fadeSlide >Fako. <span class="underline" style="color: #25993c;">Multipurpose.</span><br/>Cultural Center.(FMCC)</h1>
-      <p @fadeSlide >Fako Multipurpose Cultural Center is a vibrant hub for cultural, social, and community activities located in the heart of the Fako division. </p>
-  
-      <div class="search-wrapper"  >
-        <input @fadeSlide type="search" name="search" class="search-field" placeholder="Search here..." />
-        <button @fadeSlide class="search-btn">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-      
-      
-    </div>
-
-  
-    
-<div class="diagonal-image-stack"  >
-  <img @fadeSlide [ngSrc]="'assets/mbando pictures fix/200A5039.jpg'" width="250" height="50" alt="Image 1" class="diagonal-img img1" />
-  <img @fadeSlide [ngSrc]="'assets/mbandoLogo.jpeg'" width="250" height="250" alt="Image 2" class="diagonal-img img2" />
-  <img @fadeSlide [ngSrc]="'assets/Mbando/3D4A9376.JPG'" width="250" height="250" alt="Image 3" class="diagonal-img img3" />
-</div>
-
-
-    
-    
-    
-  </section>
-
-  <div class="message-container">
-    <!-- Left Text Section -->
-    <div class="text-section">
-      <h2 class="title">
-        Welcome Message from the<br />Paramount Chief of Buea
-      </h2>
-  
-      <p class="message">
-        Greetings, dear members and friends of the Fako community.
-        It is with immense pride that I welcome you to our digital home—
-        a space to honor our heritage, celebrate our culture, and build a united future.
-        Explore our history, immerse yourself in our traditions, and join us in shaping
-        the next chapter of our legacy.
-      </p>
-  
-      <div class="chief-info">
-        <div class="avatar">
-          <img [ngSrc]="'assets/esuka.PNG'" width="300" height="200" alt="Avatar" />
-        </div>
-        <div class="chief-details">
-          <h3 class="chief-name">Chief Robert Esuka Enderley</h3>
-          <p class="chief-title">Paramount Chief Buea</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Right Image Section -->
-    <div class="image-section">
-      <img src="assets/chiefe.jpeg" style="width: 600px; height: 400px;" alt="Paramount Chief" class="chief-image" />
+    <div class="search-wrapper">
+      <input @fadeSlide type="search" name="search" class="search-field" placeholder="Search here..." />
+      <button @fadeSlide class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
     </div>
   </div>
+
+  <div class="diagonal-image-stack">
+    <img @fadeSlide [ngSrc]="'assets/mbando pictures fix/200A5039.jpg'" width="250" height="50" alt="Image 1" class="diagonal-img img1" />
+    <img @fadeSlide [ngSrc]="'assets/mbandoLogo.jpeg'" width="250" height="250" alt="Image 2" class="diagonal-img img2" />
+    <img @fadeSlide [ngSrc]="'assets/Mbando/3D4A9376.JPG'" width="250" height="250" alt="Image 3" class="diagonal-img img3" />
+  </div>
+</section>
+
+<div class="message-container">
+  <div class="text-section">
+    <h2 class="title">
+      Welcome Message from the<br />Paramount Chief of Buea
+    </h2>
+    <p class="message">
+      Greetings, dear members and friends of the Fako community. It is with immense pride that I welcome you to our digital home—a space to honor our heritage, celebrate our culture, and build a united future. Explore our history, immerse yourself in our traditions, and join us in shaping the next chapter of our legacy.
+    </p>
+    <div class="chief-info">
+      <div class="avatar">
+        <img [ngSrc]="'assets/esuka.PNG'" width="300" height="200" alt="Avatar" />
+      </div>
+      <div class="chief-details">
+        <h3 class="chief-name">Chief Robert Esuka Enderley</h3>
+        <p class="chief-title">Paramount Chief Buea</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-section">
+    <img src="assets/chiefe.jpeg" style="width: 600px; height: 400px;" alt="Paramount Chief" class="chief-image" />
+  </div>
+</div>
+
+<section style="background: linear-gradient(135deg, #ffffff 0%, #f1fdf3 100%); color: #000; padding: 70px 20px; font-family: 'Georgia', serif; border-top: 6px solid #267937; border-bottom: 6px solid #4ac462; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
   
+  <h2 style="font-size: 38px; font-weight: bold; color: #267937; text-align: center; margin-bottom: 25px; text-shadow: 1px 1px 0 #fff, 3px 3px 6px rgba(0,0,0,0.1); letter-spacing: 1px;">
+     What Makes <span style="color: #25993c; text-decoration: u;">Fako Extraordinary </span> 
+  </h2>
+
+  <p style="font-size: 20px; line-height: 1.8; max-width: 850px; margin: 0 auto 35px; color: #222; text-align: center; background: rgba(255,255,255,0.8); padding: 15px 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    Nestled at the foot of <span style="color: #25993c; font-weight: bold;">Mount Fako</span> — an awe-inspiring active volcano rising above 4,000 m — our cultural center thrives in a region where ancient traditions meet modern innovation. 
+    Mount Fako, revered by the Bakweri as <em style="color:#267937;">“Mongo ma Ndemi”</em> (the Mountain of Greatness), is not only a spiritual symbol, but also a living monument of identity and endurance.
+  </p>
+
+  <p style="font-size: 20px; line-height: 1.8; max-width: 850px; margin: 0 auto 35px; color: #222; text-align: center; background: rgba(255,255,255,0.8); padding: 15px 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    Echoing this powerful legacy, the town of <span style="color: #25993c; font-weight: bold;">Buea</span> and surrounding areas have become known as 
+    <strong style="color: #267937;">“Silicon Mountain”</strong> — a booming tech ecosystem that plays on our volcanic heritage and mirrors Silicon Valley’s spirit of creativity and progress.
+  </p>
+
+  <p style="font-size: 20px; line-height: 1.8; max-width: 850px; margin: 0 auto; color: #222; text-align: center; background: rgba(255,255,255,0.8); padding: 15px 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    Here at <strong style="color: #25993c;">FMCC</strong>, we embrace this union of tradition and innovation. We celebrate the mountain’s storied heritage and nurture the rising waves of youth-led tech, art, and cultural revival — building a future that’s rooted in our past, yet soaring toward tomorrow.
+  </p>
+
+  <!-- Decorative line -->
+  <div style="margin: 40px auto 0; width: 120px; height: 5px; background: linear-gradient(to right, #267937, #4ac462); border-radius: 50px;"></div>
+
+</section>
+
+<section>
+  <h1 style="text-align: center; color: #4ac462;">
+    Discover the Heart of our <span class="underline" style="color: #25993c;">Culture</span>
+  </h1>
+  <p style="text-align: center;">
+    The central vision of a new era for Fako is the proposed construction of the Fako Multipurpose Cultural Center, envisioned as a source of pride and a prominent beacon of unity for the Fako people.
+  </p>
   
-  <section>
-    <h1 style="text-align: center; color: #4ac462;">Discover the Heart of our <span class="underline" style="color: #25993c;">Culture</span></h1>
-    <P style="text-align: center;">The Central vision of a new era for Fako is the proposed construction of the <br> fako Multipurpose Cultural center 
-    ,envisioned as a source of pride and prominent beacon of unity for the fako people </P>
-    <div class="look" >
-      <div  class="Cultural-carousel" >
-        <div class="container" style="height: 200px;">
-          <div class="carousel-wrapper">
-            <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
-              <div class="slider-item" *ngFor="let slide of culturalSlides">
-                <img [src]="slide.image" [alt]="slide.alt" class="banner-img">
-                <div class="banner-content" *ngIf="slide.content">
-                  <h2 class="banner-title">{{ slide.content.title }}</h2>
-                  
-                </div>
-              
+  <div class="look">
+    <div class="Cultural-carousel">
+      <div class="container" style="height: 200px;">
+        <div class="carousel-wrapper">
+          <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
+            <div class="slider-item" *ngFor="let slide of culturalSlides">
+              <img [src]="slide.image" [alt]="slide.alt" class="banner-img" />
+              <div class="banner-content" *ngIf="slide.content">
+                <h2 class="banner-title">{{ slide.content.title }}</h2>
               </div>
             </div>
-      
-            <div class="carousel-dots">
-              <span *ngFor="let slide of culturalSlides; let i = index"
-                    [class.active]="i === currentSlide"
-                    (click)="goToSlide(i)"></span>
-            </div>
+          </div>
+          <div class="carousel-dots">
+            <span *ngFor="let slide of culturalSlides; let i = index"
+                  [class.active]="i === currentSlide"
+                  (click)="goToSlide(i)"></span>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="cool" >
-       
-          <i style="width: 50px; height: 50px; padding: 15px;
-    border-radius: 8px; background:#267937 ; font-size: 3rem;  margin-left: 50px; margin-top: 25px;" class="fas fa-users"></i>
-
+    <div class="cool">
+      <i style="width: 50px; height: 50px; padding: 15px; border-radius: 8px; background:#267937; font-size: 3rem; margin-left: 50px; margin-top: 25px;" class="fas fa-users"></i>
       <h1 style="color: white; text-align: center; margin-top: 10px;">What We Do?</h1>
-<p>The FMCC appeals to everyone in fako with programming that fits the bill of everyone. FMCC has the space to 
-  ensure that every infant, todler,adult and senior can find whats right for them.Meeting rooms in the facilty
-  will allow community members space for classes, club meetings,presentations, or birthday parties. The option are endless
-  in a Multipurpose facility.
-</p>
+      <p>
+        The FMCC appeals to everyone in Fako with programming that fits the needs of all. From infants to seniors, FMCC offers spaces for classes, meetings, presentations, or celebrations. The options are endless in a multipurpose facility.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="masonry-grid">
+  <div class="grid-item" *ngFor="let image of gallery">
+    <img [src]="image.url" [alt]="image.title" />
+    <h4>{{ image.title }}</h4>
+    <h5>{{ image.caption }}</h5>
+  </div>
+</div>
+<section style="background: linear-gradient(135deg, #ffffff 0%, #f1fdf3 100%); padding: 80px 20px; font-family: 'Georgia', serif; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+  
+  <!-- Heading -->
+  <h2 style="font-size: 40px; font-weight: bold; color: #267937; text-align: center; margin-bottom: 25px; text-shadow: 1px 1px 0 #fff, 3px 3px 6px rgba(0,0,0,0.1); letter-spacing: 1px;">
+     Building the <span style="text-decoration: underline; color: #25993c;">Future</span> of Fako 
+  </h2>
+
+  <!-- Subtitle -->
+  <p style="font-size: 20px; color: #222; text-align: center; max-width: 900px; margin: 0 auto 40px; line-height: 1.8;">
+    The Fako Multipurpose Cultural Center will stand as a beacon of culture, innovation, and unity — a home where the heartbeat of tradition meets the rhythm of tomorrow. This visionary project will rise at the foot of the majestic Mount Fako, welcoming generations to learn, create, and celebrate together.
+  </p>
+
+  <!-- Layout -->
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; align-items: center; max-width: 1100px; margin: 0 auto;">
+    
+    <!-- Text Column -->
+    <div style="flex: 1 1 500px; min-width: 300px; background: rgba(255,255,255,0.85); padding: 25px 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); line-height: 1.8; font-size: 18px; color: #222;">
+      <p>
+        The FMCC complex will feature a grand performance hall, interactive heritage museum, modern conference spaces, and creative studios — all designed to empower our community and share our story with the world.
+      </p>
+      <p>
+        But this dream will only become reality with the power of our people. Every donation — big or small — becomes a brick in our foundation, a light in our corridors, and a melody in our halls. Together, we will raise walls that speak of our pride and pave paths that lead into the future.
+      </p>
+      <p style="font-weight: bold; color: #267937; font-size: 20px; text-align: center; margin-top: 20px;">
+         Be part of history — help us build the heart of Fako!
+      </p>
+    </div>
+
+    <!-- Image Column -->
+    <div style="flex: 1 1 400px; min-width: 300px; display: flex; align-items: center; justify-content: center;">
+      <img src="assets/fako1.PNG" alt="FMCC Architectural Design" style="width: 100%; max-width: 500px; height: auto; border: 4px solid #4ac462; border-radius: 15px; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+    </div>
+
+  </div>
+
+  <!-- Decorative bottom line -->
+  <div style="margin: 50px auto 0; width: 150px; height: 6px; background: linear-gradient(to right, #267937, #4ac462); border-radius: 50px;"></div>
+
+</section>
+
+<section class="upcoming-events" style="background: #f9f9f9; padding: 40px 20px;">
+  <h2 style="text-align: center; color: #25993c;">
+    Upcoming <span class="underline" style="color: #4ac462;">Events</span>
+  </h2>
+  <p style="text-align: center;">Stay updated with cultural festivals, art exhibitions, and community gatherings.</p>
+  <div class="event-grid" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 20px;">
+    <div class="event-card" *ngFor="let event of upcomingEvents" style="width: 300px; border-radius: 12px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 20px;">
+      <i class="fas fa-calendar-alt" style="font-size: 2rem; color: #25993c;"></i>
+      <h3>{{ event.title }}</h3>
+      <p>{{ event.date | date }}</p>
+      <p>{{ event.description }}</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 40px 20px; background: #ffffff;">
+  <h2 style="text-align: center; color: #25993c;">
+    Voices of <span class="underline" style="color: #4ac462;">Our People</span>
+  </h2>
+  <p style="text-align: center;">What FMCC means to our vibrant community</p>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 30px;">
+    <div *ngFor="let testimonial of testimonials" style="width: 300px; background: #f1fdf3; border-radius: 12px; padding: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05);">
+      <i class="fas fa-quote-left" style="font-size: 2rem; color: #267937;"></i>
+      <p style="font-style: italic;">“{{ testimonial.message }}”</p>
+      <h4 style="margin-top: 15px;">— {{ testimonial.name }}</h4>
+    </div>
+  </div>
+</section>
+
+
+
+
+<h2 style="text-align: center; color: #4ac462;" class="articles-heading">
+  Latest Articles <span style="color: #267937; text-decoration: underline;">of the FMCC</span>
+</h2>
+
+<div (click)="goToBlog()">
+  <app-sub-blog></app-sub-blog>
 </div>
 
-    </div>
-
-    
-  </section>
-
-  <div class="masonry-grid">
-    <div class="grid-item" *ngFor="let image of gallery">
-      <img [src]="image.url" [alt]="image.title" />
-      <h4>{{ image.title }}</h4>
-      <h5>{{image.caption }}</h5>
-      
-    </div>
-  </div>
-  
-  
-  
-  <section class="upcoming-events" style="background: #f9f9f9; padding: 40px 20px;" >
-    <h2 style="text-align: center; color: #25993c;">Upcoming <span class="underline" style="color: #4ac462;">Events</span></h2>
-    <p style="text-align: center;">Stay updated with cultural festivals, art exhibitions, and community gatherings.</p>
-  
-    <div class="event-grid" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 20px;">
-      <div   class="event-card" *ngFor="let event of upcomingEvents" style="width: 300px; border-radius: 12px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 20px;">
-        <i class="fas fa-calendar-alt" style="font-size: 2rem; color: #25993c;"></i>
-        <h3>{{ event.title }}</h3>
-        <p>{{ event.date | date }}</p>
-        <p>{{ event.description }}</p>
-      </div>
-    </div>
-  </section>
-
-  <section style="padding: 40px 20px; background: #ffffff;">
-    <h2 style="text-align: center; color: #25993c;">Voices of <span class="underline" style="color: #4ac462;">Our People</span></h2>
-    <p style="text-align: center;">What FMCC means to our vibrant community</p>
-  
-    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 30px;">
-      <div *ngFor="let testimonial of testimonials" style="width: 300px; background: #f1fdf3; border-radius: 12px; padding: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05);">
-        <i class="fas fa-quote-left" style="font-size: 2rem; color: #267937;"></i>
-        <p style="font-style: italic;">“{{ testimonial.message }}”</p>
-        <h4 style="margin-top: 15px;">— {{ testimonial.name }}</h4>
-      </div>
-    </div>
-  </section>
-  
-  <div class="cultural-carousel2">
-    <div class="carousel-container2">
-      <div class="carousel-wrapper2">
-        <div class="carousel-track2" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
-          <div class="slider-item2" *ngFor="let slide of cultureSlides">
-            <img [src]="slide.image"  class="banner-img">
-          </div>
-        </div>
-        <div class="carousel-dots2">
-          <span *ngFor="let slide of culturalSlides; let i = index"
-                [class.active]="i === currentSlide"
-                (click)="goToSlide(i)"></span>
-        </div>
-      </div>
-    </div>         
-  </div>
-  
-  <section class="heritage-archive">
-    <h2 style="text-align: center; color: #4ac462;" class="section-title">Digital <span style="color: #267937;" class="underline">Heritage Archive</span></h2>
-    <p style="text-align: center;" class="section-subtitle">Preserving the past for future generations through stories, photos, and videos.</p>
-  
-    <div class="heritage-grid">
-      <div *ngFor="let item of heritageArchive" class="heritage-card">
-        <img [src]="item.image" alt="Heritage Item" />
-        <div class="card-content">
-          <h4>{{ item.title }}</h4>
-          <p>{{ item.description }}</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <h2 style="text-align: center; color: #4ac462;" class="articles-heading">Latest Articles <span style="color: #267937; text-decoration: underline;">of the FMCC</span> </h2>
-  
-  <div (click)="goToBlog()">
-  <app-sub-blog></app-sub-blog>
-  </div>
-  
-  <app-footer></app-footer>
+<app-footer></app-footer>
