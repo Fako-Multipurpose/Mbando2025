@@ -92,26 +92,19 @@ toggleAudio() {
       'Often worn during festivals and weddings'
     ]
   },
-  {
-    title: 'Cultural Dances',
-    image: 'assets/mbando small size pix/DSC04353.jpg',
-    description: 'Dance expresses spirit, joy, and strength.',
-    expanded: false,
-    details: [
-      'Famous dances include "Chacha" and "Marlle Dance"',
-      'Performed during Mbando and installations',
-      'Accompanied by drums and traditional songs'
-    ]
-  },
+
   {
     title: 'Cuisine & Dishes',
-    image: 'assets/mbando small size pix/DSC04393.jpg',
+    image: 'assets/kwa.PNG',
     description: 'Known for flavorful dishes rooted in tradition.',
     expanded: false,
     details: [
       'Ndole with plantains',
-      'Palm nut soup (Mbanga)',
-      'Roasted fish with herbs and pepper'
+      'Ekpwakoko and Mosaka(palmnut sauce)',
+      'Roasted fish with herbs and pepper',
+      'Ekpwang',
+       'Ngonya Kwalala (black soup made with cocoyam leaves)'
+
     ]
   },
   {
@@ -125,7 +118,8 @@ toggleAudio() {
       'Ceremony blends modern and ancestral customs'
     ]
   },
-  {
+
+   {
     title: 'Naming Traditions',
     image: 'assets/child.jpeg',
     description: 'Names often reflect events, ancestors, or spirits.',
@@ -136,6 +130,27 @@ toggleAudio() {
       'Ceremony involves entire community'
     ]
   },
+  {
+    title: 'Cultural Dances',
+    image: 'assets/mbando small size pix/DSC04353.jpg',
+    description: 'Dance expresses spirit, joy, and strength.',
+    expanded: false,
+    details: [
+      'Famous dances include "Chacha" and "Maley Dance"',
+      'Performed during Mbando and installations',
+      'Accompanied by drums and traditional songs'
+    ]
+  },
+{
+    title: 'Marley dance',
+    image: 'assets/mbando pictures fix/DSC04421.jpg',
+    description: 'A sacred traditional dance ritual practiced by the bakweri people.',
+    expanded: false,
+    details: [
+      'A type of tradional spiritual  dance'
+    ]
+  },
+ 
   {
     title: 'Spiritual Practices',
     image: 'assets/mbando small size pix/DSC04446.jpg',
@@ -148,16 +163,28 @@ toggleAudio() {
     ]
   },
   {
-    title: 'Palm Wine Culture',
-    image: 'assets/mbando pictures fix/DSC04421.jpg',
-    description: 'Tapping and sharing palm wine is a tradition.',
+    title: 'Elephant Dance',
+    image: 'assets/elephant.PNG',
+    description: 'Performed by members of the secret Male (Maalé) society',
     expanded: false,
     details: [
-      'Palm wine is offered to guests',
-      'Used in rituals and celebrations',
-      'Tapping is a skilled heritage practice'
+      'Dancers wear skirts of palm frond',
+      'raffia-covered headpieces with wooden "tusks,"',
+      'Ankle rattles made of nut shells.'
     ]
   },
+  {
+    title: 'Nganya Dance',
+    image: 'assets/mbando pictures fix/DSC04335.jpg',
+    description: 'Cleansing Ritual Dance',
+    expanded: false,
+    details: [
+      'It’s performed to appease the gods,',
+      'Accompanied by libations and late-night rituals',
+      'cleanse the land (“tanirze”), and restore fertility and productivity.'
+    ]
+  },
+  
   {
     title: 'Bakweri Proverbs',
     image: 'assets/mbando pictures fix/DSC04377.jpg',
@@ -190,10 +217,10 @@ fakoLegends = [
     bio: 'A revered custodian of Bakweri heritage, HRH Robert Esuka Endeley has dedicated his reign to preserving tradition while guiding his people toward modern progress. Known for his unifying spirit and visionary leadership, he has become a symbol of cultural pride and resilience for the Buea community and beyond.'
   },
   {
-    name: 'HRH Epupa Ekum Victor',
+    name: ' Chief John Elufa Manga Williams',
     role: 'Paramount Chief of Limbe',
     image: 'assets/chiefLimbe.jpeg',
-    bio: 'HRH Epupa Ekum Victor stands as a guardian of coastal heritage, upholding the ancestral customs of the Limbe clans with dignity and wisdom. Through his leadership, he fosters harmony, cultural growth, and a deep-rooted connection to the traditions that define the soul of Fako.'
+    bio: 'John Elufa Manga Williams stands as a guardian of coastal heritage, upholding the ancestral customs of the Limbe clans with dignity and wisdom. Through his leadership, he fosters harmony, cultural growth, and a deep-rooted connection to the traditions that define the soul of Fako.'
   },
 
   {

@@ -1,7 +1,9 @@
 <app-header></app-header>
 <section class="hero" @fadeSlide>
-    <h1 style="color: #205e2a;">About the Fako  <span style="color:#4ac462 ; text-decoration: underline;">Multipurpose </span> <br>Cultural Center </h1>
-    <p style="color: black;">The beating heart of Fako’s culture, empowerment & innovation.</p>
+    <h1 style="color: #205e2a;">About Hvako-Mbando <span style="color:#4ac462 ; text-decoration: underline;">Cultural & Development </span> <br>Organization </h1>
+    <p style="color: black;">An Organization created in accordance with law No 90/053 of 19th December 1990, regulating non-governmental organizaions
+      
+    </p>
   </section>
   
   <!-- ───────── Mission / Vision / Values Tabs ───────── -->
@@ -10,19 +12,101 @@
       <button [class.active]="currentTab() === 'mission'" (click)="setTab('mission')">Mission</button>
       <button [class.active]="currentTab() === 'vision'"  (click)="setTab('vision')">Vision</button>
       <button [class.active]="currentTab() === 'values'"  (click)="setTab('values')">Values</button>
+      <button [class.active]="currentTab() === 'initiatives'"  (click)="setTab('initiatives')">Initiatives</button>
     </nav>
   
     <div class="tab-content">
       <div *ngIf="currentTab() === 'mission'" @fadeSlide>
-        <p>To safeguard Fako’s cultural heritage while equipping our people—especially youth and women—with skills to thrive in a global economy.</p>
+        <p>We aim to celebrate and preserve cultural heritage while creating opportunities 
+    for community engagement, learning, and development. Our projects foster 
+    inclusivity, creativity, and sustainable growth for present and future generations.</p>
       </div>
       <div *ngIf="currentTab() === 'vision'" @fadeSlide>
-        <p>A vibrant, self-reliant community where culture drives creativity, unity & socio-economic growth.</p>
+        <p> A vibrant cultural hub where heritage meets innovation—preserving traditions, 
+    inspiring creativity, and building a sustainable future for the Hvako 
+    community and beyond
+        </p>
       </div>
       <div *ngIf="currentTab() === 'values'" @fadeSlide>
         <ul>
           <li>Cultural Pride</li><li>Inclusivity</li><li>Innovation</li><li>Sustainability</li>
         </ul>
+      </div>
+       <div *ngIf="currentTab() === 'initiatives'" @fadeSlide>
+       <article>
+    <h3>1. Cultural Events & Festivities</h3>
+    <p>
+      Regularly organize cultural events where all generations can connect, 
+      share traditions, and celebrate diversity in a safe, inclusive space.
+    </p>
+  </article>
+
+  <article>
+    <h3>2. Multipurpose Cultural Centres</h3>
+    <p>
+      Construct and manage a state-of-the-art Multipurpose Centre in Buea (our headquarters) 
+      and Liaison Centres across Fako Division.
+    </p>
+    <ul>
+      <li>Cultural Library & Museum</li>
+      <li>Art Gallery</li>
+      <li>Ballroom & Banquet Halls</li>
+      <li>Conference Rooms & Language Centres</li>
+      <li>Skills & Capacity Building Labs</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>3. Mbando Cultural Village</h3>
+    <p>
+      Develop a cultural village and event grounds showcasing traditional 
+      architecture, art, and performances.
+    </p>
+  </article>
+
+  <article>
+    <h3>4. Heritage Preservation</h3>
+    <p>
+      Collect and preserve artworks, artifacts, and traditional objects 
+      for display in museums and galleries. Promote Intangible Heritage 
+      (music, folklore, language) and Tangible Heritage (monuments, historic sites).
+    </p>
+  </article>
+
+  <article>
+    <h3>5. Tourism & Economic Development</h3>
+    <p>
+      Develop cultural tourism to create jobs, stimulate business, and attract visitors.
+      Highlight Fako Division’s Built Heritage (colonial buildings, monuments) 
+      and Natural Heritage (Mount Fako, waterfalls, islands).
+    </p>
+  </article>
+
+  <article>
+    <h3>6. Creative & Performing Arts</h3>
+    <p>
+      Support visual arts, performing arts, literature, and historic restoration. 
+      Encourage cultural industries that generate employment and entrepreneurship.
+    </p>
+  </article>
+
+  <article>
+    <h3>7. Youth, Women & Community Engagement</h3>
+    <p>
+      Promote participation in intercultural exchanges, artistic programs, 
+      and creative industries. Foster education on cultural diversity, 
+      human rights, and sustainable development.
+    </p>
+  </article>
+
+  <article>
+    <h3>8. Recognition & Partnerships</h3>
+    <p>
+      Award individuals and organizations contributing to cultural growth 
+      and nation-building. Engage in public-private partnerships, 
+      fundraising, and joint ventures to support projects.
+    </p>
+  </article>
       </div>
     </div>
   </section>
@@ -40,10 +124,32 @@
       </li>
     </ul>
   </section>
+ 
+
   
 
 <!-- ===================== FMCC Activities (Text-only, Animated) ===================== -->
 <section id="activities" class="activities-section">
+  <div style=" padding: 40px 10px; text-align: center; color: white; border-radius: 20px;  margin: 5px 0;">
+  <h2 style="font-size: 2.2rem; margin-bottom: 15px; font-weight: bold; letter-spacing: 1px;">
+    📖 Download the Mbando Magazine
+  </h2>
+  <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto 30px auto; line-height: 1.6;">
+    Explore the rich cultural heritage of the Fako people through our <strong>Mbando Magazine</strong>.  
+    Packed with stories, traditions, and highlights from the annual festival, this magazine is your gateway  
+    to understanding and celebrating our vibrant community.
+  </p>
+  
+  <a href="assets/Magazine.pdf" download
+     style="display: inline-block; padding: 15px 40px; background: #90ee90; color: #013220; font-size: 1.1rem; font-weight: bold; text-decoration: none; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+     ⬇️ Download Now
+  </a>
+
+  <p style="margin-top: 20px; font-size: 0.95rem; opacity: 0.9;">
+    *Available in PDF format for easy access and sharing.
+  </p>
+</div>
+
   <div class="section-header">
     <h2 class="section-title">FMCC Activities</h2>
     <p class="section-intro">
@@ -104,9 +210,175 @@
       </div>
     </div>
   </section>
+
+  <section class="fako-legends-section">
+  <h2 style="text-decoration: underline;"> <span style="color: #4ac462; text-decoration: none;">Major Supporters </span> of the FMCC</h2>
+  <p class="intro">In every step we take, many have helped us fasten our impact.</p>
+
+  <div class="legend-cards">
+    <div class="legend-card" *ngFor="let legend of fakoLegends">
+    
+      <div class="legend-info">
+         <img [src]="legend.image" [alt]="legend.name" />
+        <h3>{{ legend.name }}</h3>
+        <p class="role">{{ legend.role }}</p>
+        <p class="bio">{{ legend.bio }}</p>
+       
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fako Diaspora Major Contributors to FMCC -->
+<section
+  style="
+    --dark:#0b3d2e; --light:#4ac462; --ink:#eafff2;
+    padding:60px 6%; background:
+    radial-gradient(1200px 600px at 5% 0%, rgba(74,196,98,0.10), transparent 60%),
+    linear-gradient(180deg, #0b3d2e 0%, #083425 100%);
+    color:#f3fff7; font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  "
+>
+  <div style="max-width:1200px; margin:0 auto;">
+    <h2 style="margin:0 0 8px; font-size:clamp(22px,3.5vw,34px); letter-spacing:.3px;">
+      Fako <span style="color:#4ac462">Diaspora Major Contributors</span> to FMCC
+    </h2>
+    <p style="margin:0 0 28px; color:#c9f3d7; font-size:clamp(13px,1.6vw,16px);">
+      Honouring partners across the globe who uplift FMCC’s mission through culture, unity, and impact.
+    </p>
+
+    <div
+      style="
+        display:grid; gap:18px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      "
+    >
+
+      <!-- Hvako Heritage Fund, USA -->
+      <a
+        href="https://www.facebook.com/investinlimbe/posts/mbando2024rejoice-fako-chiefs-are-ready-the-mbando-ya-hvako-cultural-festival-sh/1048422830630257/"
+        target="_blank" rel="noopener"
+        style="
+          text-decoration:none; background:rgba(255,255,255,0.06);
+          border:1px solid rgba(74,196,98,0.25);
+          border-radius:18px; overflow:hidden; display:flex; flex-direction:column;
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+          box-shadow:0 6px 18px rgba(0,0,0,.25);
+        "
+      >
+        <div style="aspect-ratio:16/9; background:#0e4a37; display:flex; align-items:center; justify-content:center;">
+          <img
+            src="data:image/png;base64,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"
+            alt="Hvako Heritage Fund (Mbando Ya Hvako)"
+            style="width:100%; height:100%; object-fit:cover; filter:contrast(1.05) saturate(1.05);"
+          />
+        </div>
+        <div style="padding:16px 16px 18px;">
+          <div style="font-weight:700; font-size:18px; color:#eafff2;">
+            Hvako Heritage Fund, USA
+          </div>
+          <div style="margin-top:6px; font-size:13px; color:#c9f3d7;">
+            Support arm of the Mbando/“Hvako” cultural movement in the diaspora.
+          </div>
+        </div>
+      </a>
+
+      <!-- Fako UK -->
+      <a
+        href="https://mountfakonewscentre.com/fako-uk-leicester-2023"
+        target="_blank" rel="noopener"
+        style="
+          text-decoration:none; background:rgba(255,255,255,0.06);
+          border:1px solid rgba(74,196,98,0.25);
+          border-radius:18px; overflow:hidden; display:flex; flex-direction:column;
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+          box-shadow:0 6px 18px rgba(0,0,0,.25);
+        "
+      >
+        <div style="aspect-ratio:16/9; background:#0e4a37;">
+          <img
+            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=915,h=610,fit=crop/m5Kl758aOZtX6Wkl/1-mk38LXn9E3FreRGv.jpg"
+            alt="FAKO UK Cultural Weekend"
+            style="width:100%; height:100%; object-fit:cover;"
+          />
+        </div>
+        <div style="padding:16px 16px 18px;">
+          <div style="font-weight:700; font-size:18px; color:#eafff2;">Fako UK</div>
+          <div style="margin-top:6px; font-size:13px; color:#c9f3d7;">
+            UK chapter events &amp; community outreach supporting Fako heritage.
+          </div>
+        </div>
+      </a>
+
+      <!-- Fako Molatako Ireland -->
+      <a
+        href="https://www.facebook.com/groups/2126515521503376/"
+        target="_blank" rel="noopener"
+        style="
+          text-decoration:none; background:rgba(255,255,255,0.06);
+          border:1px solid rgba(74,196,98,0.25);
+          border-radius:18px; overflow:hidden; display:flex; flex-direction:column;
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+          box-shadow:0 6px 18px rgba(0,0,0,.25);
+        "
+      >
+        <div style="
+          aspect-ratio:16/9; background:
+          linear-gradient(135deg, rgba(74,196,98,.25), rgba(11,61,46,.65));
+          display:flex; align-items:center; justify-content:center; text-align:center; padding:12px;
+        ">
+          <span style="font-weight:800; letter-spacing:.5px; line-height:1.3; color: #eafff2; font-size:22px;">
+            Fako Molatako<br/>Ireland
+          </span>
+        </div>
+        <div style="padding:16px 16px 18px;">
+          <div style="font-weight:700; font-size:18px; color:#eafff2;">
+            Fako Molatako Ireland
+          </div>
+          <div style="margin-top:6px; font-size:13px; color:#c9f3d7;">
+            Diaspora circle linking UK/Ireland Bakweri communities.
+          </div>
+        </div>
+      </a>
+
+      <!-- Fako Berlin -->
+      <a
+        href="https://fakoamerica.org/"
+        target="_blank" rel="noopener"
+        style="
+          text-decoration:none; background:rgba(255,255,255,0.06);
+          border:1px solid rgba(74,196,98,0.25);
+          border-radius:18px; overflow:hidden; display:flex; flex-direction:column;
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+          box-shadow:0 6px 18px rgba(0,0,0,.25);
+        "
+      >
+        <div style="
+          aspect-ratio:16/9; background:
+          linear-gradient(135deg, rgba(74,196,98,.25), rgba(11,61,46,.65));
+          display:flex; align-items:center; justify-content:center; text-align:center; padding:12px;
+        ">
+          <span style="font-weight:800; letter-spacing:.5px; line-height:1.3; color:#eafff2; font-size:22px;">
+            Fako Berlin
+          </span>
+        </div>
+        <div style="padding:16px 16px 18px;">
+          <div style="font-weight:700; font-size:18px; color:#eafff2;">Fako Berlin</div>
+          <div style="margin-top:6px; font-size:13px; color:#c9f3d7;">
+            Community hub for Fako sons &amp; daughters in Germany.
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
 <section id="women-education" class="women-education-section">
   <div class="section-header">
-    <h2 class="section-title">Women & Education</h2>
+    <h2 class="section-title">Women In Education in Fako</h2>
     <p class="section-intro" style="color: black;">
       Celebrating visionary women who shape education, mentorship, and empowerment in Fako, inspiring generations.
     </p>
@@ -114,13 +386,29 @@
 
   <div class="women-grid">
 
+     <!-- Woman 2: Prof Dorothy Limunga Njuema -->
+    <div class="woman-card reverse">
+      <div class="woman-image">
+        <img src="assets/other woman.PNG" alt="Prof Dorothy Limunga Njuema">
+        <h1> Pioneer Vice-Chancellor, University of Buea 1993-2005, Rector universityof Yaounde, 2005-2008</h1>
+      </div>
+      <div class="woman-content">
+        <h3 class="woman-name">Prof Dorothy Limunga Njuema</h3>
+        <p class="woman-description">
+  Professor Dorothy Limunga NJEUMA, Née Effange, is a distinguished Cameroonian academic and public figure whose contributions to education, culture, and community development have left an indelible mark on the Fako Division and beyond. Born on June 26, 1943, in Buea, Cameroon, she pursued her early education at Queen's School in Enugu, Nigeria, due to the absence of secondary schools for girls in Cameroon at the time. She later earned a Bachelor of Science degree in Biology from Brown University in the United States, followed by a PhD in Zoology from University College London. Returning to Cameroon in 1970, she embarked on a prolific academic career, becoming an associate professor of Genetics and Embryology at the University of Yaoundé. Her leadership journey continued as she served as Vice Minister of National Education from 1975 to 1985, becoming one of the few women in the government at that time. In 1988, she was appointed Director General of the Buea University Centre, and in 1993, she became the first Vice-Chancellor of the newly established University of Buea, a position she held until 2005. Under her stewardship, the university gained national and international recognition for its academic excellence and infrastructural development. Beyond her academic and administrative roles, Professor Njeuma has been a staunch advocate for the preservation and promotion of the cultural heritage of the Fako Division. She has played a pivotal role in the revival of the Mbando Festival, an ancient cultural celebration of the Bakweri people, which had been dormant for several years. Collaborating with traditional rulers, community leaders, and cultural enthusiasts, she has been instrumental in organizing events that reconnect the Fako people with their cultural roots, fostering unity and pride within the community. Her efforts in cultural advocacy are complemented by her active participation in community development initiatives, where she has supported various programs aimed at improving education, healthcare, and infrastructure in the Fako Division. Professor Njeuma's legacy is one of unwavering dedication to the advancement of education, the empowerment of women, and the preservation of cultural identity. Her life's work continues to inspire generations of Cameroonians to strive for excellence and to value their heritage.
+</p>
+
+      </div>
+    </div>
+
     <!-- Woman 1: Min Nalova Lyonga -->
     <div class="woman-card">
       <div class="woman-image">
         <img src="assets/Nalo.jpeg" alt="Min Nalova Lyonga">
+        <h1>Minister for secondary Education Cameroon</h1>
       </div>
       <div class="woman-content">
-        <h3 class="woman-name">Min Nalova Lyonga</h3>
+        <h3 class="woman-name">Minister Nalova Lyonga</h3>
        <p class="woman-description">
   Professor Pauline Nalova Lyonga Egbe is one of Cameroon’s most influential figures in education and social development, with a lifelong commitment to empowering youth and advancing educational standards across the nation. Born in the Fako Division of the South West Region, she has consistently demonstrated visionary leadership and unwavering dedication to the development of young people, particularly young women. Her formative years at the Queen of the Rosary Secondary School in Okoyong, Mamfe, and subsequent studies at the Cameroon College of Arts Science and Technology (CCAST) in Bambili laid the foundation for a remarkable academic journey. She earned a Bachelor’s degree in English Literature from the University of Yaoundé, followed by a Master’s in African Literature from the University of Sheffield in the United Kingdom, and a PhD in English Literature from the University of Michigan, USA, giving her a rich blend of international and local academic perspectives. Returning to Cameroon, she embarked on an illustrious academic career, holding pivotal roles including Director of Business Affairs, Vice-Rector, and ultimately Rector of the University of Buea, where she championed educational reforms, improved administrative efficiency, and oversaw key infrastructure developments to enhance the learning environment. In March 2018, she was appointed Minister of Secondary Education, a role in which she has introduced transformative initiatives to modernize and digitize the education system, such as the Skills Development Project, online exam registration systems, digital fee payment platforms, and progressive policies that allow pregnant students to continue their studies, thereby promoting inclusivity and equal opportunity. Beyond her ministerial duties, she remains deeply connected to her home region of Fako, actively supporting community projects, scholarship programs, and youth mentorship initiatives that inspire and empower the next generation. She has also played a key role in promoting cultural heritage, contributing to events like the Mbando Festival, which celebrates the rich traditions and artistic expressions of the Bakweri people, bridging education with cultural awareness. Professor Nalova Lyonga’s outstanding leadership has been recognized nationally, earning her accolades such as the “Woman of the Year” award in 2022 and “Best Minister of 2023” award in 2024. Her tireless work, both in government and academia, has transformed countless lives, inspired communities, and set a benchmark for excellence, making her a role model whose impact resonates throughout Fako and across Cameroon. Through her career, she exemplifies the power of dedication, vision, and compassion in shaping education, fostering equity, and preserving cultural identity, leaving an enduring legacy that continues to inspire generations of students, educators, and community leaders.
 </p>
@@ -128,19 +416,67 @@
       </div>
     </div>
 
-    <!-- Woman 2: Prof Dorothy Limunga Njuema -->
-    <div class="woman-card reverse">
+
+    <div class="woman-card">
       <div class="woman-image">
-        <img src="assets/other woman.PNG" alt="Prof Dorothy Limunga Njuema">
+        <img src="assets/fawone.PNG" alt="Min Nalova Lyonga">
+        <h1> Fako Women N’Edinge (FAWONE)</h1>
       </div>
       <div class="woman-content">
-        <h3 class="woman-name">Prof Dorothy Limunga Njuema</h3>
-        <p class="woman-description">
-  Professor Dorothy Limunga Njeuma, née Effange, is a distinguished Cameroonian academic and public figure whose contributions to education, culture, and community development have left an indelible mark on the Fako Division and beyond. Born on June 26, 1943, in Buea, Cameroon, she pursued her early education at Queen's School in Enugu, Nigeria, due to the absence of secondary schools for girls in Cameroon at the time. She later earned a Bachelor of Science degree in Biology from Brown University in the United States, followed by a PhD in Zoology from University College London. Returning to Cameroon in 1970, she embarked on a prolific academic career, becoming an associate professor of Genetics and Embryology at the University of Yaoundé. Her leadership journey continued as she served as Vice Minister of National Education from 1975 to 1985, becoming one of the few women in the government at that time. In 1988, she was appointed Director General of the Buea University Centre, and in 1993, she became the first Vice-Chancellor of the newly established University of Buea, a position she held until 2005. Under her stewardship, the university gained national and international recognition for its academic excellence and infrastructural development. Beyond her academic and administrative roles, Professor Njeuma has been a staunch advocate for the preservation and promotion of the cultural heritage of the Fako Division. She has played a pivotal role in the revival of the Mbando Festival, an ancient cultural celebration of the Bakweri people, which had been dormant for several years. Collaborating with traditional rulers, community leaders, and cultural enthusiasts, she has been instrumental in organizing events that reconnect the Fako people with their cultural roots, fostering unity and pride within the community. Her efforts in cultural advocacy are complemented by her active participation in community development initiatives, where she has supported various programs aimed at improving education, healthcare, and infrastructure in the Fako Division. Professor Njeuma's legacy is one of unwavering dedication to the advancement of education, the empowerment of women, and the preservation of cultural identity. Her life's work continues to inspire generations of Cameroonians to strive for excellence and to value their heritage.
+        <h3 class="woman-name"> FAWONE’s role in Advancing Education in Fako: 
+Empowering Future Generations</h3>
+       <p class="woman-description">
+ Fako Women N’Edinge (FAWONE), in 
+partnership with various collaborators, 
+has made significant strides in advanc
+ing education within the Fako Division. 
+Annually, the association awards over 
+200 prizes, including cash awards and 
+essential educational resources such 
+as ICT tools, books, and other materials, 
+collectively valued at more than 5 mil
+lion FCFA. These accolades honor the 
+exceptional academic achievements 
+of both male and female students who 
+have excelled in the General Certificate 
+of Education (GCE), at both Ordinary 
+and Advanced levels, over the past two 
+years.
+ Founded in 2021, FAWONE is an asso
+ciation of women from all subdivisions 
+of Fako, including those both in Camer
+oon and the diaspora. The association led byIya Dr Etonde  Mbua (Notable of the 
+First-class Chiefdom 
+of Buea), as National 
+president, is commit
+ted to fostering peace, 
+promoting social co
+hesion, and support
+ing sustainable devel
+opment throughout 
+Fako, the South West 
+Region, and beyond. 
+FAWONE is particularly 
+focused on empower
+ing the youth of Fako 
+and advancing the po
+sition of Fako women 
+in society.
+ To date, FAWONE has 
+established nine active 
+chapters across the 
+Fako Division—Limbe (1, 2, and 3), Buea, 
+Idenau, Muyuka, Tiko, Muea, and Bon
+jongo—along with chapters in Douala, 
+Yaoundé, and a diaspora branch in the 
+United States.
 </p>
 
       </div>
     </div>
+
+
+   
 
   </div>
 </section>

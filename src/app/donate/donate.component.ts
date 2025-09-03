@@ -94,23 +94,16 @@ export class DonateComponent {
     this.showSuccess = false;
   }
 
-  goal = 800000000;          
-  raised = 50000000;        
+  goal = 1200000000;          
+  raised = 90000000;        
   get progress() {
     return Math.min((this.raised / this.goal) * 100, 100);
   }
 
   presets = [1000, 2500, 5000, 10000];
 
-  topDonors = [
-    { name: 'Esther N.', amount: 10000, message: 'Keep up the good work!' },
-    { name: 'Anonymous', amount: 7500, message: 'Proud of FMCC' },
-    { name: 'James E.', amount: 5000, message: '' },
-    { name: 'Kumba Group', amount: 12000, message: 'Cultural pride forever!' },
-    { name: 'Lilian K.', amount: 8000, message: 'Happy to contribute' }
-  ];
 
-  totalDonors = this.topDonors.length + 25;
+  totalDonors = 196;
 
   onImageSelect(evt: Event) {}
 

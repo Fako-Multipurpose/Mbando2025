@@ -30,9 +30,9 @@
     </div>
   </div>
 
-  <p class="goal-text">
-    <strong>{{ raised }}</strong>
-    raised of {{goal}}
+  <p class="goal-text" style="color: white; font-weight: bold; font-size: 24px;">
+    <strong>{{ raised | currency:'XAF':'symbol':'1.0-0' }} +</strong> 
+    raised of {{goal | currency:'$':'symbol':'1.0-0'}} 
    
   </p>
 </section>
@@ -56,7 +56,7 @@
 
   <!-- Download Button -->
   <div class="download-wrapper">
-    <a href="assets/MbandoContributions.xlsx" download class="download-btn">
+    <a href="assets/donorSheet.xlsx" download class="download-btn">
       📥 Download Full Donation Report
     </a>
   </div>

@@ -40,7 +40,5 @@ export const routes: Routes = [
     },
 
      { path: 'admin-login', component: CredentialsComponent }, // <-- login route
-  { path: 'admin', children: adminRoutes },                // <-- admin panel routes
-  { path: '', redirectTo: '', pathMatch: 'full' },         // your homepage route
-  { path: '**', redirectTo: '' },    
+ 
 ];
