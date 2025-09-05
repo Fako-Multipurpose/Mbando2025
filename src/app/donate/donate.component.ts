@@ -95,7 +95,7 @@ export class DonateComponent {
   }
 
   goal = 1200000000;          
-  raised = 90000000;        
+  raised = 100000000;        
   get progress() {
     return Math.min((this.raised / this.goal) * 100, 100);
   }

@@ -52,6 +52,84 @@ interface Activity {
   ]
 })
 export class AboutComponent implements  OnDestroy {
+  royalFaces = [
+  { 
+    name: 'HRM Robert Esuka Endeley', 
+    role: 'Paramount Chief & Naliomo of Buea', 
+    img: 'assets/chiefEsuka.jpeg' 
+  },
+  { 
+    name: 'HRM John Elufa Manga Williams', 
+    role: 'Paramount Chief & Ikanea of Limbe', 
+    img: 'assets/limbe.jpeg' 
+  },
+   { 
+    name: 'HRM Ekum Victor Epupa', 
+    role: 'Chief of Dikolo', 
+    img: 'assets/ekum.jpeg' 
+  },
+   { 
+    name: 'HRH Chief Kalla', 
+    role: 'Chief of Tiko-Mongo', 
+    img: 'assets/kalla.jpeg' 
+  },
+  { 
+    name: 'Chief Otto Molive Molungu', 
+    role: 'President of the Fako Chiefs', 
+    img: 'assets/otto.PNG' 
+  },
+  { 
+    name: 'HRM DIKE RICHARD', 
+    role: '', 
+    img: 'assets/d.jpeg' 
+  },
+  { 
+    name: ' HRM KALE DAVID ELOVE', 
+    role: '', 
+    img: 'assets/d1.jpeg' 
+  },
+  { 
+    name: '  HRM EKO NGANJE', 
+    role: '', 
+    img: 'assets/d3.jpeg' 
+  },
+    { 
+    name: '    HRM DIPOKO DANIEL ', 
+    role: '', 
+    img: 'assets/d2.jpeg' 
+  },
+   { 
+    name: '      HRM EMMANUEL NDONGO MOLONGE ', 
+    role: 'Chief of Bonankanda', 
+    img: 'assets/crik.jpeg' 
+  },
+ 
+  { 
+    name: 'HRM Abel Mokuke Ndive', 
+    role: 'Chief of Sasse, Donor of FMCC Annex', 
+    img: 'assets/crik1.jpeg' 
+  },
+  { 
+    name: ' HRM AARON NGEKA', 
+    role: 'Chief of Mutengene', 
+    img: 'assets/crik2.jpeg' 
+  },
+   { 
+    name: ' HRM HUMPHREY TANDE MOSENG', 
+    role: '', 
+    img: 'assets/crik3.jpeg' 
+  },
+
+   {
+    name: 'HRM Albert Njie Mbonde ',
+    role: '',
+    img:'assets/bert.jpeg',
+   
+  },
+ 
+   
+];
+
 
   /* ---------- Tabs ---------- */
   currentTab = signal<'mission' | 'vision' | 'values'| 'initiatives'>('mission');
@@ -106,29 +184,38 @@ export class AboutComponent implements  OnDestroy {
 
   /* ---------- Timeline data ---------- */
   milestones = [
-     { year: 2022, text: 'Coronation of Paramount chief HRM Naliomo of Buea Robert Esuka Endeley, and HRM John Elufa Manga Williams, Ikanea of Limbe  .' },
-    { year: 2022, text: 'Creation of the Hvako Mbando Cultural and development Organization.' },
-    { year: 2023, text: 'Holding of the first Hvako Mbando Cultural Festival in Buea, Limbe, Muyuka, Idenea, Tiko' },
-   { year: 2023, text: 'Appointment of the Mbando Cultural Festival Steering commitee chaired by Sango Namanga Ngongi' },
-    { year: 2024, text: 'Holding of the first Hvako Mbando Cultural Festival in Buea, Limbe, Tiko-Mongo' },
-     { year: 2024, text: 'Identificaion, survey and approval of the Fako Multipurpose cultural center grounds at the foot of the fako mountain in Buea' },
-      { year: 2024, text: 'Donation of FMCC annex by HRH Abel Mokuke Ndive' },
+     { year: 2022, text: 'Coronation of Paramount chief HRM Dr Robert Esuka Endeley, Naliomo of Buea  and HRM John Elufa Manga Williams, Ikanea of Limbe  .' },
+    { year: 2022, text: 'Creation of the Hvako Mbando Cultural Development Organization.' },
+       { year: 2023, text: 'Appointment of the Mbando Cultural Festival Steering Commitee chaired by Sango Dr Amos Namanga Ngongi' },
+        { year: 2023, text: 'Donation of Land in Lysoka by Sango Dr Amos Namanga Ngongi' },
+    { year: 2023, text: 'Holding of the first Hvako Mbando Cultural Festival in Buea, Limbe, Muyuka, Idenau, Tiko' },
+    { year: 2024, text: 'Holding of the Second Hvako Mbando Cultural Festival in Buea, Limbe, Tiko-Mongo' },
+     { year: 2024, text: 'Identificaion, survey and approval by the SDO of the location of the Fako Multipurpose Cultural Center at the foot of the Fako Mountain in Buea' },
+      { year: 2024, text: 'Donation of FMCC annex by HRM Abel Mokuke Ndive , Chief of Sasse' },
   
-    { year: 2025, text: 'Fencing of the fmcc annex grounds donated by HRH Abel Mokuke Ndive' }
+    { year: 2025, text: 'Fencing of the FMCC Annex in Wotutu donated by HRM Abel Mokuke Ndive' }
   ];
 
   /* ---------- Team ---------- */
   team = [
     { name: 'HRM Robert Esuka Endeley', role: 'Paramount chief & Naliomo of Buea', img: 'assets/chiefEsuka.jpeg' },
     { name: 'John Elufa Manga Williams', role: 'Paramount chief & Ikanea of Limbe', img: 'assets/limbe.jpeg' },
-    { name: ' Sango Dr Amos Namanga Ngongi ', role: 'Chairman of the Mbando steering committee, former United Nations Under Secretary-General, Special Representative to the Democratic Republic of Congo, DRC.', img: 'assets/dr namanga.jpeg' },
+    { name: ' Sango Dr Amos Namanga Ngongi ', role: 'Chairman of the Mbando steering committee, former United Nations Under Secretary-General, Special Representative of the UN Secretary General to the Democratic Republic of Congo, DRC.', img: 'assets/dr namanga.jpeg' },
     { name: 'Nyango Etonde Mbua', role: 'Vice chairperson of Mbando steering committee, president of Fako Women for Peace Association, FAWONE', img: 'assets/etonde.jpeg' },
     { name: 'Sango  Samuel Njie Kale ', role: 'Chairman of Mbando Trust Fund committee', img: 'assets/samuelNjie.PNG' },
     { name: 'Nyango Lois Ebenye Ikome', role: 'Vice chairperson MTFC', img: 'assets/ikome.PNG' },
     { name: 'Her Excellency Nyango Elsie Ngowo Effange-Mbella', role: 'Former Director, Civil affairs Division, United Nations for Mali,  Treasurer MTFC,  ', img: 'assets/Elsie.jpeg' },
     { name: 'Sango Barrister Cosmos Lifange', role: 'Legal Advicer', img: 'assets/Baris.jpeg' },
-    { name: 'Sango Victor Elame', role: 'Architech', img: '' },
-  ];
+    { name: 'Sango Victor Elame', role: 'Architect', img: 'assets/architect.jpeg' },
+     { name: 'Prof Kingsley Lyonga Ngange', role: 'Chairman Communication Committee Deputy Vice-Chancellors and Directors to contribute to the efforts to protect and consolidate the achievements of the University of Buea', img: 'assets/kf.jpeg' },
+      { name: 'Dr. Noella Molisa Efange ', role: 'Vice- Chair communication committee Senior Lecturer University of Buea', img: 'assets/K.jpeg' },
+   { name: 'Mr. Isuma Otto Endeley  ', role: 'Head of Logistics', img: 'assets/mm.jpeg' },
+   { name: 'Dr Martin Mokake   ', role: 'Head of Health Committee Director of Buea General Hospital', img: 'assets/martin.jpeg' },
+    { name: 'Mr Isaac Ekombe Mbua   ', role: 'Head of Protocol  Regional Delegate of Youth & Civic Education for Southwest', img: 'assets/merde.jpeg' },
+   { name: 'Dr. Catherine Ilimbi Enjema  ', role: 'Head of exhibition', img: 'assets/merde2.jpeg' },
+   { name: 'Princess Grayce Endeley ', role: 'Head of Fako Fabric', img: 'assets/merde1.jpeg' },
+      { name: ' Mola Paul Njoh Ekumbetale ', role: 'Head of Cultural Committe', img: 'assets/merde3.jpeg' },
+    ];
 
   /* ---------- Women and Education ---------- */
   women: Woman[] = [
@@ -173,17 +260,106 @@ activities: Activity[] = [
 
 
 fakoLegends = [
+  {
+    name: 'Chief Dr Dion Ngute',
+    role: 'Prime minister Head of Government  ',
+    image: 'assets/PM.jpeg',
+    bio: '',},
+  
    {
     name: 'H.E Peter Mafany Musonge',
     role: 'President of the Bilingualism comission (2017-present) ',
     image: 'assets/mafany.jpeg',
     bio: '',},
-  {
+ 
+{
     name: ' Dr Kate Kanyi-Tometi Fotso',
-    role: 'CEO,Telcar Cocoa',
+    role: 'Founder and CEO of Telcar CoCoa Ltd',
     image: 'assets/kate.jpeg',
     bio: ''
   },
+   {
+    name: ' Prof. Dorothy Limunga Njeuma',
+    role: 'Member of Cameroon Electoral Board  2009-Present Rector of University of Yaoundé I 2005-2008 Vice-Chancellor of the University of Buea 1993-2005 Director General of the Buea University 1988-1993 Vice Minister of National Education 1975 - 1985',
+    image: 'assets/Dorothy.jpeg',
+    bio: ''
+  },
+  {
+    name: 'Professor Nalova Lyonga',
+    role: '',
+    image: 'assets/nalova.PNG',
+    bio: 'Miinister of Secondary Education'
+  },
+  {
+    name: 'Sango Dr. Amos Namanga Ngongi',
+    role: 'Chairman',
+    image: 'assets/amo.jpeg',
+    bio: ''
+  },
+  {
+    name: 'Mafany Namanga',
+    role: 'Mayor of Buea',
+    image: 'assets/m.jpeg',
+    bio: ''
+  },
+  
+   {
+    name: 'Dr Kingue Monono',
+    role: '',
+    image: 'assets/monono.jpeg',
+    bio: ''
+  },
+     {
+    name: 'Mr Franklin Ngoni Njie',
+    role: 'General Manager of CDC',
+    image: 'assets/gen.jpeg',
+    bio: ''
+  },
+   {
+    name: 'Prof Henry Nammeh Luma',
+    role: '',
+    image: 'assets/nx.jpeg',
+    bio: ''
+  },
+   {
+    name: 'Prof William Nganje and Group',
+    role: '',
+    image: 'assets/William.jpeg',
+    bio: ''
+  },
+  {
+    name: 'Nyango Estherine Embelle Lisinge Fotabong ',
+    role: 'Director of Programs NEPAD',
+    image: 'assets/Nya.jpeg',
+    bio: ''
+  },
+   {
+    name: 'Dr. Robert Tama Lisinge ',
+    role: 'Chief, Energy, Infrastructure and Services Section, UN-ECA',
+    image: 'assets/L.jpeg',
+    bio: ''
+  },
+   {
+    name: 'H.E. Elsie Ngowo Efange Mbella ',
+    role: 'FMR Director, Civil Affairs Division, UN Mission for Mali, FMR Senior Gender Adviser Monusco',
+    image: 'assets/mama.jpeg',
+    bio: ''
+  },
+  
+   {
+    name: 'Mr Julius Jongo',
+    role: 'Civil Affairs Officer MONUSCO',
+    image: 'assets/new.jpeg',
+    bio: ''
+  },
+  {
+    name: 'Mr and Mrs Jacob Waah',
+    role: 'Entrepreneur, Real Estate',
+    image: 'assets/Mr.jpeg',
+    bio: ''
+  },
+  
+  
 
   {
     name: 'Max-Sako Lyonga',
@@ -192,43 +368,12 @@ fakoLegends = [
     bio: ''
   },
   {
-    name: 'HRH Chief Kalla of Tiko-Mongo',
-    role: '',
-    image: 'assets/kalla.jpeg',
-    bio: ''
-  },
-  {
-    name: 'Chief Otto Molive Molungu',
-    role: 'President of the Fako Chiefs',
-    image: 'assets/otto.PNG',
-    bio: ''
-  },
-   {
-    name: 'Professor Nalova Lyonga',
-    role: '',
-    image: 'assets/nalova.PNG',
-    bio: 'Miinister of Secondary Education'
-  },
-   {
     name: 'Fako Women Nendinge(FAWONE)',
     role: '',
     image: 'assets/faw.jpeg',
     bio: ''
   },
- 
-   {
-    name: 'Dr Kingue Monono',
-    role: '',
-    image: 'assets/monono.jpeg',
-    bio: ''
-  },
-   {
-    name: 'Mr Julius Jongo',
-    role: '',
-    image: 'assets/julius.jpeg',
-    bio: ''
-  },
-   {
+  {
     name: 'Fako UK',
     role: '',
     image: 'assets/fako.PNG',
@@ -246,42 +391,22 @@ fakoLegends = [
     image: 'assets/sonara.PNG',
     bio: ''
   },
+  
    {
     name: 'CAMTEL',
     role: '',
     image: 'assets/camtel.PNG',
     bio: ''
   },
+  
   {
-    name: 'HRH OSWARD NJOMBO EKOMBONI',
-    role: '',
-    image:'assets/osward.jpeg',
-    bio: ''
-  },
-  {
-    name: 'HRH CHIEF Humphrey Mosenge',
-    role: '',
-    image:'assets/hump.jpeg',
-    bio: ''
-  },
-  {
-    name: 'Prof. Wiiliams Ngange',
-    role: '',
-    image:'assets/will.jpeg',
-    bio: ''
-  },
-    {
-    name: 'HRM Albert Njie Mbonde ',
-    role: '',
-    image:'assets/albert.jpeg',
-    bio: ''
-  },
-   {
     name: 'Telcar cocoa ',
     role: '',
     image:'assets/telca.PNG',
     bio: ''
   },
+ 
+    
    
 
 

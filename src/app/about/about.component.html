@@ -29,7 +29,7 @@
       </div>
       <div *ngIf="currentTab() === 'values'" @fadeSlide>
         <ul>
-          <li>Cultural Pride</li><li>Inclusivity</li><li>Innovation</li><li>Sustainability</li>
+          <li>Revival and consolidation of our cultural heritage</li><li>Promotion of Inclusivity and cultural diversity</li><li>Innovative projects for youths and women's empowerment</li><li>Promotion of Sustainable partnerships</li>
         </ul>
       </div>
        <div *ngIf="currentTab() === 'initiatives'" @fadeSlide>
@@ -192,11 +192,27 @@
 <!-- =================== /FMCC Activities (Text-only, Animated) ===================== -->
 
 
-  
+  <!-- ===================== ROYAL FACES SECTION ===================== -->
+<section id="royal-faces" style="padding: 80px 10%; background: #f7fdf9;">
+  <h2 style="text-align: center; font-size: 2.5rem; font-weight: bold; color: #064420; margin-bottom: 50px;">
+    Royal Faces Behind the Mbando FMCC Vision
+  </h2>
+
+  <div class="royal-grid">
+    <div class="royal-card" *ngFor="let royal of royalFaces" [@fadeSlide]>
+      <div class="royal-img">
+        <img [src]="royal?.img" [alt]="royal?.name">
+      </div>
+      <h3>{{ royal?.name }}</h3>
+      <p>{{ royal?.role }}</p>
+    </div>
+  </div>
+</section>
+
 
   <!-- ───────── Team ───────── -->
   <section class="team">
-    <h2>Key Figures of the Fmcc</h2>
+    <h2> Key Members of the FMCC Steering Committee</h2>
     <div class="grid">
       <div class="card" *ngFor="let t of team">
         <div class="card-inner">
@@ -212,18 +228,18 @@
   </section>
 
   <section class="fako-legends-section">
-  <h2 style="text-decoration: underline;"> <span style="color: #4ac462; text-decoration: none;">Major Supporters </span> of the FMCC</h2>
+  <h2 style="text-decoration: underline;"> <span style="color: #4ac462; text-decoration: none;">Major Donors </span> of the FMCC</h2>
   <p class="intro">In every step we take, many have helped us fasten our impact.</p>
 
   <div class="legend-cards">
     <div class="legend-card" *ngFor="let legend of fakoLegends">
     
       <div class="legend-info">
-         <img [src]="legend.image" [alt]="legend.name" />
-        <h3>{{ legend.name }}</h3>
-        <p class="role">{{ legend.role }}</p>
-        <p class="bio">{{ legend.bio }}</p>
-       
+        <img [src]="legend?.image" [alt]="legend?.name" />
+<h3>{{ legend?.name }}</h3>
+<p class="role">{{ legend?.role }}</p>
+<p class="bio">{{ legend?.bio }}</p>
+
 
       </div>
     </div>
