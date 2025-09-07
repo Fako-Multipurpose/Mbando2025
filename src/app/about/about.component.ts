@@ -69,33 +69,33 @@ export class AboutComponent implements  OnDestroy {
     img: 'assets/ekum.jpeg' 
   },
    { 
-    name: 'HRH Chief Kalla', 
+    name: 'HRM Chief Kalla', 
     role: 'Chief of Tiko-Mongo', 
     img: 'assets/kalla.jpeg' 
   },
   { 
-    name: 'Chief Otto Molive Molungu', 
+    name: 'HRM Otto Molive Molungu', 
     role: 'President of the Fako Chiefs', 
     img: 'assets/otto.PNG' 
   },
   { 
     name: 'HRM DIKE RICHARD', 
-    role: '', 
+    role: 'President- Tiko chiefs conference', 
     img: 'assets/d.jpeg' 
   },
   { 
     name: ' HRM KALE DAVID ELOVE', 
-    role: '', 
+    role: 'President- Muyuka chiefs conference', 
     img: 'assets/d1.jpeg' 
   },
   { 
     name: '  HRM EKO NGANJE', 
-    role: '', 
+    role: '  President-Buea Chief conference', 
     img: 'assets/d3.jpeg' 
   },
     { 
     name: '    HRM DIPOKO DANIEL ', 
-    role: '', 
+    role: 'Chief of Missaka village', 
     img: 'assets/d2.jpeg' 
   },
    { 
@@ -115,17 +115,46 @@ export class AboutComponent implements  OnDestroy {
     img: 'assets/crik2.jpeg' 
   },
    { 
-    name: ' HRM HUMPHREY TANDE MOSENG', 
-    role: '', 
+    name: ' HRM HUMPHREY TANDE MOSENGE', 
+    role: 'Chief Small Soppo Wonganga', 
     img: 'assets/crik3.jpeg' 
   },
 
    {
     name: 'HRM Albert Njie Mbonde ',
-    role: '',
+    role: 'Chief of Bokwango',
     img:'assets/bert.jpeg',
    
   },
+  {
+    name: 'HRM OSWARD NJOMBO EKOMBONI ',
+    role: 'Chief of Ndame Island',
+    img:'assets/os.jpeg',
+   
+  },
+  {
+    name: 'HRM STEPHEN VEKIMA EFESOA ',
+    role: 'Chief of Bojongo',
+    img:'assets/efe.jpeg',
+   
+  },
+  {
+    name: 'HRM Neando Peter Bolanjo Mosukwaka III ',
+    role: 'Chief of Idenau',
+    img:'assets/eff.jpeg',
+   
+  },
+    {
+    name: 'HRM ESUKO MATHIAS ETONGE ',
+    role: 'Chief of Molyko',
+    img:'',
+   
+  },
+  
+
+ 
+
+ 
  
    
 ];
@@ -208,7 +237,7 @@ export class AboutComponent implements  OnDestroy {
     { name: 'Sango Barrister Cosmos Lifange', role: 'Legal Advicer', img: 'assets/Baris.jpeg' },
     { name: 'Sango Victor Elame', role: 'Architect', img: 'assets/architect.jpeg' },
      { name: 'Prof Kingsley Lyonga Ngange', role: 'Chairman Communication Committee Deputy Vice-Chancellors and Directors to contribute to the efforts to protect and consolidate the achievements of the University of Buea', img: 'assets/kf.jpeg' },
-      { name: 'Dr. Noella Molisa Efange ', role: 'Vice- Chair communication committee Senior Lecturer University of Buea', img: 'assets/K.jpeg' },
+      { name: 'Dr. Noella Molisa Efange ', role: 'Vice- Chair communication committee Senior Lecturer University of Buea', img: 'assets/cor3.jpeg' },
    { name: 'Mr. Isuma Otto Endeley  ', role: 'Head of Logistics', img: 'assets/mm.jpeg' },
    { name: 'Dr Martin Mokake   ', role: 'Head of Health Committee Director of Buea General Hospital', img: 'assets/martin.jpeg' },
     { name: 'Mr Isaac Ekombe Mbua   ', role: 'Head of Protocol  Regional Delegate of Youth & Civic Education for Southwest', img: 'assets/merde.jpeg' },
@@ -268,14 +297,13 @@ fakoLegends = [
   
    {
     name: 'H.E Peter Mafany Musonge',
-    role: 'President of the Bilingualism comission (2017-present) ',
+    role: 'President of the Bilingualism comission (2017-present) Former Prime Minister of Cameroon 1996 - 2004 Grand Chancellor of National Order 2007 Member of Senate 2013 - 2017 Current Chairman of the Bilingualism Committee',
     image: 'assets/mafany.jpeg',
     bio: '',},
- 
-{
-    name: ' Dr Kate Kanyi-Tometi Fotso',
-    role: 'Founder and CEO of Telcar CoCoa Ltd',
-    image: 'assets/kate.jpeg',
+    {
+    name: 'Professor Nalova Lyonga',
+    role: 'Miinister of Secondary Education',
+    image: 'assets/nalova.PNG',
     bio: ''
   },
    {
@@ -284,32 +312,35 @@ fakoLegends = [
     image: 'assets/Dorothy.jpeg',
     bio: ''
   },
-  {
-    name: 'Professor Nalova Lyonga',
-    role: '',
-    image: 'assets/nalova.PNG',
-    bio: 'Miinister of Secondary Education'
+ 
+{
+    name: ' Dr Kate Kanyi-Tometi Fotso',
+    role: 'Founder and CEO of Telcar CoCoa Ltd',
+    image: 'assets/kate.jpeg',
+    bio: ''
   },
+  
+  
   {
     name: 'Sango Dr. Amos Namanga Ngongi',
     role: 'Chairman',
     image: 'assets/amo.jpeg',
     bio: ''
   },
+    {
+    name: 'H.E. Elsie Ngowo Effange Mbella ',
+    role: 'FMR Director, Civil Affairs Division, UN Mission for Mali, FMR Senior Gender Adviser Monusco',
+    image: 'assets/mama.jpeg',
+    bio: ''
+  },
+  
   {
-    name: 'Mafany Namanga',
+    name: 'Sango Barrister Mafany Namange',
     role: 'Mayor of Buea',
     image: 'assets/m.jpeg',
     bio: ''
   },
-  
-   {
-    name: 'Dr Kingue Monono',
-    role: '',
-    image: 'assets/monono.jpeg',
-    bio: ''
-  },
-     {
+      {
     name: 'Mr Franklin Ngoni Njie',
     role: 'General Manager of CDC',
     image: 'assets/gen.jpeg',
@@ -317,16 +348,26 @@ fakoLegends = [
   },
    {
     name: 'Prof Henry Nammeh Luma',
-    role: '',
+    role: 'DIRECTOR OF THE REFRENCE  HOSPITAL DOUALA.',
     image: 'assets/nx.jpeg',
     bio: ''
   },
-   {
+     {
     name: 'Prof William Nganje and Group',
-    role: '',
+    role: 'Professor University of South Dakatho, USA',
     image: 'assets/William.jpeg',
     bio: ''
   },
+  
+   {
+    name: 'Dr Kingue Monono',
+    role: 'FMR . FINANCIAL ATTACHE, DELECAM NEW YORK ',
+    image: 'assets/monono.jpeg',
+    bio: ''
+  },
+ 
+  
+
   {
     name: 'Nyango Estherine Embelle Lisinge Fotabong ',
     role: 'Director of Programs NEPAD',
@@ -334,24 +375,37 @@ fakoLegends = [
     bio: ''
   },
    {
-    name: 'Dr. Robert Tama Lisinge ',
+    name: ' Sango Dr. Robert Tama Lisinge ',
     role: 'Chief, Energy, Infrastructure and Services Section, UN-ECA',
     image: 'assets/L.jpeg',
     bio: ''
   },
+ 
    {
-    name: 'H.E. Elsie Ngowo Efange Mbella ',
-    role: 'FMR Director, Civil Affairs Division, UN Mission for Mali, FMR Senior Gender Adviser Monusco',
-    image: 'assets/mama.jpeg',
-    bio: ''
-  },
-  
-   {
-    name: 'Mr Julius Jongo',
+    name: 'Mr JULIUS JUNGUO',
     role: 'Civil Affairs Officer MONUSCO',
     image: 'assets/new.jpeg',
     bio: ''
   },
+     {
+    name: 'Sango  Dr. Nelson Makia ',
+    role: 'MD, Pediatrician',
+    image: 'assets/dev4.jpeg',
+    bio: ''
+  },
+   {
+    name: 'Nyango Susan Enjeama Elinge Epse Ewusi ',
+    role: ' Office of the Secretary General PRESICAM Yaounde',
+    image: 'assets/Mark.jpeg',
+    bio: ''
+  },
+  {
+    name: 'Nyango Shirley Malafa Nzalie',
+    role: ' Customs Douala Cameroon',
+    image: '',
+    bio: ''
+  },
+ 
   {
     name: 'Mr and Mrs Jacob Waah',
     role: 'Entrepreneur, Real Estate',
@@ -362,23 +416,24 @@ fakoLegends = [
   
 
   {
-    name: 'Max-Sako Lyonga',
+    name: ' Sango Max-Sako Lyonga',
     role: 'Global Artist',
     image: 'assets/max.jpeg',
     bio: ''
   },
+ 
+ 
+  
+
+
+
   {
     name: 'Fako Women Nendinge(FAWONE)',
     role: '',
     image: 'assets/faw.jpeg',
     bio: ''
   },
-  {
-    name: 'Fako UK',
-    role: '',
-    image: 'assets/fako.PNG',
-    bio: ''
-  },
+
    {
     name: 'MTN CAMEROON',
     role: '',
@@ -392,6 +447,13 @@ fakoLegends = [
     bio: ''
   },
   
+  {
+    name: 'Telcar cocoa ',
+    role: '',
+    image:'assets/telca.PNG',
+    bio: ''
+  },
+  
    {
     name: 'CAMTEL',
     role: '',
@@ -399,10 +461,10 @@ fakoLegends = [
     bio: ''
   },
   
-  {
-    name: 'Telcar cocoa ',
+ {
+    name: 'FAKOSHIP',
     role: '',
-    image:'assets/telca.PNG',
+    image:'assets/fak.jpeg',
     bio: ''
   },
  

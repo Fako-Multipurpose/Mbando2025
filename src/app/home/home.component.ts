@@ -93,9 +93,9 @@ backgroundUrl = 'assets/grrn.jpeg';
   ];
   
   testimonials = [
-    { name: 'Mama Ekema', message: 'FMCC brought our traditions back to life. I feel proud again.' },
-    { name: 'Charles Ndongo', message: 'A center where I found my roots and purpose through cultural dance.' },
-    { name: 'Linda Mbua', message: 'It’s more than a center, it’s our legacy being preserved beautifully.' },
+    { name: 'Mama Ekema', message: 'FMCC will bring back our traditions back to life. I feel proud again.'},
+ 
+    { name: 'Linda Mbua', message: 'It will be  more than just a center, it’s our legacy being preserved beautifully.'}
   ];
   
 
@@ -161,7 +161,7 @@ backgroundUrl = 'assets/grrn.jpeg';
     },
    
     {
-      image: 'assets/Mbando/3D4A9505.JPG',
+      image: 'assets/coro.jpeg',
       alt: 'new fashion summer sale',
       content: {
         
