@@ -396,13 +396,13 @@ fakoLegends = [
    {
     name: 'Nyango Susan Enjeama Elinge Epse Ewusi ',
     role: ' Office of the Secretary General PRESICAM Yaounde',
-    image: 'assets/Mark.jpeg',
+    image: '',
     bio: ''
   },
   {
     name: 'Nyango Shirley Malafa Nzalie',
     role: ' Customs Douala Cameroon',
-    image: '',
+    image: 'assets/Mark.jpeg',
     bio: ''
   },
  
