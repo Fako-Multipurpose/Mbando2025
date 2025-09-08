@@ -94,13 +94,13 @@ export class AboutComponent implements  OnDestroy {
     img: 'assets/d3.jpeg' 
   },
     { 
-    name: '    HRM DIPOKO DANIEL ', 
-    role: 'Chief of Missaka village', 
+    name: 'HRM DIPOKO DANIEL ', 
+    role: 'Chief of Mussaka village', 
     img: 'assets/d2.jpeg' 
   },
    { 
     name: '      HRM EMMANUEL NDONGO MOLONGE ', 
-    role: 'Chief of Bonankanda', 
+    role: 'Chief of Wonankanda', 
     img: 'assets/crik.jpeg' 
   },
  
@@ -122,7 +122,7 @@ export class AboutComponent implements  OnDestroy {
 
    {
     name: 'HRM Albert Njie Mbonde ',
-    role: 'Chief of Bokwango',
+    role: 'Chief of Wokwaongo',
     img:'assets/bert.jpeg',
    
   },
@@ -134,7 +134,7 @@ export class AboutComponent implements  OnDestroy {
   },
   {
     name: 'HRM STEPHEN VEKIMA EFESOA ',
-    role: 'Chief of Bojongo',
+    role: 'Chief of Wojongo',
     img:'assets/efe.jpeg',
    
   },
@@ -145,7 +145,7 @@ export class AboutComponent implements  OnDestroy {
    
   },
     {
-    name: 'HRM ESUKO MATHIAS ETONGE ',
+    name: 'HRM ESUKA MATHIAS ETONGE ',
     role: 'Chief of Molyko',
     img:'',
    
@@ -233,15 +233,15 @@ export class AboutComponent implements  OnDestroy {
     { name: 'Nyango Etonde Mbua', role: 'Vice chairperson of Mbando steering committee, president of Fako Women for Peace Association, FAWONE', img: 'assets/etonde.jpeg' },
     { name: 'Sango  Samuel Njie Kale ', role: 'Chairman of Mbando Trust Fund committee', img: 'assets/samuelNjie.PNG' },
     { name: 'Nyango Lois Ebenye Ikome', role: 'Vice chairperson MTFC', img: 'assets/ikome.PNG' },
-    { name: 'Her Excellency Nyango Elsie Ngowo Effange-Mbella', role: 'Former Director, Civil affairs Division, United Nations for Mali,  Treasurer MTFC,  ', img: 'assets/Elsie.jpeg' },
+    { name: 'Her Excellency Nyango Elsie Ngowo Effange-Mbella', role: ' Treasurer MBANDO Trust Fund Committee(MTFC),Former Director of Civil Affairs Division,MINUSMA; Senior Gender Adviser MONUSCO, United Nations for Mali  ', img: 'assets/Elsie.jpeg' },
     { name: 'Sango Barrister Cosmos Lifange', role: 'Legal Advicer', img: 'assets/Baris.jpeg' },
     { name: 'Sango Victor Elame', role: 'Architect', img: 'assets/architect.jpeg' },
-     { name: 'Prof Kingsley Lyonga Ngange', role: 'Chairman Communication Committee Deputy Vice-Chancellors and Directors to contribute to the efforts to protect and consolidate the achievements of the University of Buea', img: 'assets/kf.jpeg' },
+     { name: 'Prof Kingsley Lyonga Ngange', role: 'Chairman Communication Committee Deputy Vice-Chancellor and Director to contribute to the efforts to protect and consolidate the achievements of the University of Buea', img: 'assets/kf.jpeg' },
       { name: 'Dr. Noella Molisa Efange ', role: 'Vice- Chair communication committee Senior Lecturer University of Buea', img: 'assets/cor3.jpeg' },
-   { name: 'Mr. Isuma Otto Endeley  ', role: 'Head of Logistics', img: 'assets/mm.jpeg' },
+   { name: 'Mr. Isuma Otto Endeley  ', role: 'Head of Cultural Committee', img: 'assets/mm.jpeg' },
    { name: 'Dr Martin Mokake   ', role: 'Head of Health Committee Director of Buea General Hospital', img: 'assets/martin.jpeg' },
     { name: 'Mr Isaac Ekombe Mbua   ', role: 'Head of Protocol  Regional Delegate of Youth & Civic Education for Southwest', img: 'assets/merde.jpeg' },
-   { name: 'Dr. Catherine Ilimbi Enjema  ', role: 'Head of exhibition', img: 'assets/merde2.jpeg' },
+   { name: 'Dr. Catherine Ilimbi Enjema  ', role: 'Head of exhibitions', img: 'assets/merde2.jpeg' },
    { name: 'Princess Grayce Endeley ', role: 'Head of Fako Fabric', img: 'assets/merde1.jpeg' },
       { name: ' Mola Paul Njoh Ekumbetale ', role: 'Head of Cultural Committe', img: 'assets/merde3.jpeg' },
     ];
@@ -329,7 +329,7 @@ fakoLegends = [
   },
     {
     name: 'H.E. Elsie Ngowo Effange Mbella ',
-    role: 'FMR Director, Civil Affairs Division, UN Mission for Mali, FMR Senior Gender Adviser Monusco',
+    role: 'FMR Director Civil Affairs Division,MINUSMA;FMR Senior Gender Adviser MONUSCO, UN Mission for Mali',
     image: 'assets/mama.jpeg',
     bio: ''
   },
@@ -396,7 +396,7 @@ fakoLegends = [
    {
     name: 'Nyango Susan Enjeama Elinge Epse Ewusi ',
     role: ' Office of the Secretary General PRESICAM Yaounde',
-    image: '',
+    image: 'assets/susan.jpeg',
     bio: ''
   },
   {
@@ -407,7 +407,7 @@ fakoLegends = [
   },
  
   {
-    name: 'Mr and Mrs Jacob Waah',
+    name: 'Sango Ewongowe & Mrs Jacob Waah',
     role: 'Entrepreneur, Real Estate',
     image: 'assets/Mr.jpeg',
     bio: ''
