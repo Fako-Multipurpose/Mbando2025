@@ -68,6 +68,12 @@ export class AboutComponent implements  OnDestroy {
     role: 'Chief of Dikolo', 
     img: 'assets/ekum.jpeg' 
   },
+  {
+    name: 'HRM Etina Monono ',
+    role: 'Chief of Soppo',
+    img:'assets/chief4.jpeg',
+   
+  },
    { 
     name: 'HRM Chief Kalla', 
     role: 'Chief of Tiko-Mongo', 
@@ -144,13 +150,161 @@ export class AboutComponent implements  OnDestroy {
     img:'assets/eff.jpeg',
    
   },
+  {
+    name: 'HRM NGALE B NGOMBA ',
+    role: 'Chief lower Boando',
+    img:'assets/nga2.jpeg',
+   
+  },
+
     {
     name: 'HRM ESUKA MATHIAS ETONGE ',
     role: 'Chief of Molyko',
     img:'',
+  },
+    {
+    name: 'HRM Mbanda Njie II ',
+    role: 'Chief of Lysoka Moliwe',
+    img:'assets/chief1.jpeg',
+   
+  },
+   {
+    name: 'HRM Limonge France Kinge ',
+    role: 'Chief Bwiteva Vilage',
+    img:'assets/chief2.jpeg',
+   
+  },
+   {
+    name: 'HRM Nango Beckly ',
+    role: 'Chief of Monde Village',
+    img:'assets/chief3.jpeg',
+   
+  },
+  {
+    name: 'HRM Sam Mafany Luma ',
+    role: 'Chief of Limbola',
+    img:'assets/chief6.jpeg',
+   
+  },
+   {
+    name: 'HRM Eward Molinge ',
+    role: 'Chief of Upper Muea',
+    img:'assets/chief5.jpeg',
+   
+  },
+   {
+    name: 'HRM Donald Likine ',
+    role: 'Chief of Bojoke Village',
+    img:'assets/chief8.jpeg',
    
   },
   
+   {
+    name: 'HRM Rudolf Esoke Sone II ',
+    role: 'Chief of Malende Village',
+    img:'assets/chief7.jpeg',
+   
+  },
+     {
+    name: 'HRM Johnson Njombe Njoke ',
+    role: 'Chief of Wokaka',
+    img:'assets/chief11.jpeg',
+   
+  },
+  
+   {
+    name: 'HRM Etoni Moka ',
+    role: 'Chief of Wosenge Village',
+    img:'assets/chief9.jpeg',
+   
+  },
+   {
+    name: 'HRM Effeme Nganje Francis ',
+    role: 'Chief of Ikata Village',
+    img:'assets/chief10.jpeg',
+   
+  },
+
+   {
+    name: 'HRM Elias Mbake ',
+    role: 'Chief of Boana Village',
+    img:'assets/chief12.jpeg',
+   
+  },
+   {
+    name: 'HRM Kale David ',
+    role: 'Chief Masone Village',
+    img:'assets/chief13.jpeg',
+   
+  },
+   {
+    name: 'HRM Likowo Denis Melombe ',
+    role: 'Chief of Munyenge Village',
+    img:'assets/chief14.jpeg',
+   
+   
+  },
+   {
+    name: 'HRM Ekoka Molindo ',
+    role: 'Chief of Mondoli',
+    img:'assets/chief15.jpeg',
+   
+  },
+   {
+    name: 'HRM George Malumbe Dikanjo ',
+    role: 'Chief of Wovia',
+    img:'assets/chief16.jpeg',
+   
+  },
+   {
+    name: 'HRM Mbua Peter Mokte ',
+    role: 'Chief of Bafia Village',
+    img:'assets/chief17.jpeg',
+   
+  },
+   {
+    name: 'HRM Teke Oscar Etute',
+    role: 'Chief of Wonya Nango Village ',
+    img:'assets/chief18.jpeg',
+   
+  },
+  
+   {
+    name: 'HRM Janea Ndoke Ngonja Philip',
+    role: 'Chief of Mpundy Balong',
+    img:'assets/chief19.jpeg',
+   
+  },
+   {
+    name: 'HRM Peter Ekema',
+    role: 'Chief of Soppo Likoko',
+    img:'assets/chief20.jpeg',
+   
+  },
+   {
+    name: 'HRM Thomas Elinge Ndotoh',
+    role: 'Chief of Ewili Village',
+    img:'assets/chief21.jpeg',
+   
+  },
+   {
+    name: 'HRM Mbua Mokofe Emerson ',
+    role: 'Chief of Wokoko Village',
+    img:'assets/chief22.jpeg',
+   
+  },
+   {
+    name: 'HRM Br. Elive Esimboe',
+    role: 'Chief Ewomgo Village ',
+    img:'assets/chief23.jpeg',
+   
+  },
+   {
+    name: 'HRM David Ewome Mokosa ',
+    role: 'Chief of Bwitingi Village',
+    img:'assets/chief24.jpeg',
+   
+  }
 
  
 

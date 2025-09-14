@@ -130,28 +130,7 @@ toggleAudio() {
       'Ceremony involves entire community'
     ]
   },
-  {
-    title: 'Cultural Dances',
-    image: 'assets/mbando small size pix/DSC04353.jpg',
-    description: 'Dance expresses spirit, joy, and strength.',
-    expanded: false,
-    details: [
-      'Famous dances include "Chacha" and "Maley Dance"',
-      'Performed during Mbando and installations',
-      'Accompanied by drums and traditional songs'
-    ]
-  },
-{
-    title: 'Marley dance',
-    image: 'assets/mbando pictures fix/DSC04421.jpg',
-    description: 'A sacred traditional dance ritual practiced by the bakweri people.',
-    expanded: false,
-    details: [
-      'A type of tradional spiritual  dance'
-    ]
-  },
- 
-  {
+   {
     title: 'Spiritual Practices',
     image: 'assets/mbando small size pix/DSC04446.jpg',
     description: 'Belief in ancestral spirits and nature guardians.',
@@ -163,9 +142,60 @@ toggleAudio() {
     ]
   },
   {
+    title: 'Cultural Dances',
+    image: 'assets/mbando small size pix/DSC04353.jpg',
+    description: 'Dance expresses spirit, joy, and strength.',
+    expanded: false,
+    details: [
+      'Famous dances include "Chacha" and "Malley Dance"',
+      'Performed during Mbando and installations',
+      'Accompanied by drums and traditional songs'
+    ]
+  },
+{
+    title: 'Malley dance',
+    image: 'assets/mbando pictures fix/DSC04421.jpg',
+    description: 'A sacred traditional dance ritual practiced by the Bakweri people.',
+    expanded: false,
+    details: [
+      
+    ]
+  },
+  {
+    title: 'Fontele dance',
+    image: 'assets/mbando pictures fix/200A5108.jpg',
+    description: 'A sacred traditional dance  by the Mongo people.',
+    expanded: false,
+    details: [
+     
+    ]
+  },
+  
+   {
+    title: 'Ndonge dance',
+    image: 'assets/mbando pictures fix/200A5108.jpg',
+    description: 'Female Cult Dan of Bebunde',
+    expanded: false,
+    details: [
+    
+    ]
+  },
+ 
+  {
     title: 'Elephant Dance',
     image: 'assets/elephant.PNG',
-    description: 'Performed by members of the secret Male (Maalé) society',
+    description: 'Performed by members of the secret malley society',
+    expanded: false,
+    details: [
+      'Dancers wear skirts of palm frond',
+      'raffia-covered headpieces with wooden "tusks,"',
+      'Ankle rattles made of nut shells.'
+    ]
+  },
+   {
+    title: 'Ngosso Dance',
+    image: 'assets/ngosso.jpeg',
+    description: 'Performed by the ESEWE cult group of the ISUBU clan.',
     expanded: false,
     details: [
       'Dancers wear skirts of palm frond',
@@ -174,9 +204,9 @@ toggleAudio() {
     ]
   },
   {
-    title: 'Nganya Dance',
-    image: 'assets/mbando pictures fix/DSC04335.jpg',
-    description: 'Cleansing Ritual Dance',
+    title: 'Nganya ',
+    image: 'assets/nga.jpeg',
+    description: 'Cleansing Ritual ',
     expanded: false,
     details: [
       'It’s performed to appease the gods,',
@@ -279,17 +309,268 @@ fakoLegends = [
     'assets/festival2.jpg'
   ];
 
-  proverbs = [
-    { quote: 'Even the smallest drum has a rhythm.', origin: 'Buea' },
-    { quote: 'Where elders sit, the future listens.', origin: 'Limbe' },
-    { quote: 'A tree never forgets its roots.', origin: 'Tiko' }
-  ];
+  
 
-  testimonials = [
-    'This place brings our culture to life!',
-    'A beautiful preservation of our roots.',
-    'Educational and inspiring for the younger generation.'
-  ];
+  royalFaces = [
+   { 
+     name: 'HRM Robert Esuka Endeley', 
+     role: 'Paramount Chief & Naliomo of Buea', 
+     img: 'assets/chiefEsuka.jpeg' 
+   },
+   { 
+     name: 'HRM John Elufa Manga Williams', 
+     role: 'Paramount Chief & Ikanea of Limbe', 
+     img: 'assets/limbe.jpeg' 
+   },
+    { 
+     name: 'HRM Ekum Victor Epupa', 
+     role: 'Chief of Dikolo', 
+     img: 'assets/ekum.jpeg' 
+   },
+   {
+     name: 'HRM Etina Monono ',
+     role: 'Chief of Soppo',
+     img:'assets/chief4.jpeg',
+    
+   },
+    { 
+     name: 'HRM Chief Kalla', 
+     role: 'Chief of Tiko-Mongo', 
+     img: 'assets/kalla.jpeg' 
+   },
+   { 
+     name: 'HRM Otto Molive Molungu', 
+     role: 'President of the Fako Chiefs', 
+     img: 'assets/otto.PNG' 
+   },
+   { 
+     name: 'HRM DIKE RICHARD', 
+     role: 'President- Tiko chiefs conference', 
+     img: 'assets/d.jpeg' 
+   },
+   { 
+     name: ' HRM KALE DAVID ELOVE', 
+     role: 'President- Muyuka chiefs conference', 
+     img: 'assets/d1.jpeg' 
+   },
+   { 
+     name: '  HRM EKO NGANJE', 
+     role: '  President-Buea Chief conference', 
+     img: 'assets/d3.jpeg' 
+   },
+     { 
+     name: 'HRM DIPOKO DANIEL ', 
+     role: 'Chief of Mussaka village', 
+     img: 'assets/d2.jpeg' 
+   },
+    { 
+     name: '      HRM EMMANUEL NDONGO MOLONGE ', 
+     role: 'Chief of Wonankanda', 
+     img: 'assets/crik.jpeg' 
+   },
+  
+   { 
+     name: 'HRM Abel Mokuke Ndive', 
+     role: 'Chief of Sasse, Donor of FMCC Annex', 
+     img: 'assets/crik1.jpeg' 
+   },
+   { 
+     name: ' HRM AARON NGEKA', 
+     role: 'Chief of Mutengene', 
+     img: 'assets/crik2.jpeg' 
+   },
+    { 
+     name: ' HRM HUMPHREY TANDE MOSENGE', 
+     role: 'Chief Small Soppo Wonganga', 
+     img: 'assets/crik3.jpeg' 
+   },
+ 
+    {
+     name: 'HRM Albert Njie Mbonde ',
+     role: 'Chief of Wokwaongo',
+     img:'assets/bert.jpeg',
+    
+   },
+   {
+     name: 'HRM OSWARD NJOMBO EKOMBONI ',
+     role: 'Chief of Ndame Island',
+     img:'assets/os.jpeg',
+    
+   },
+   {
+     name: 'HRM STEPHEN VEKIMA EFESOA ',
+     role: 'Chief of Wojongo',
+     img:'assets/efe.jpeg',
+    
+   },
+   {
+     name: 'HRM Neando Peter Bolanjo Mosukwaka III ',
+     role: 'Chief of Idenau',
+     img:'assets/eff.jpeg',
+    
+   },
+   {
+     name: 'HRM NGALE B NGOMBA ',
+     role: 'Chief lower Boando',
+     img:'assets/nga2.jpeg',
+    
+   },
+ 
+     {
+     name: 'HRM ESUKA MATHIAS ETONGE ',
+     role: 'Chief of Molyko',
+     img:'',
+   },
+     {
+     name: 'HRM Mbanda Njie II ',
+     role: 'Chief of Lysoka Moliwe',
+     img:'assets/chief1.jpeg',
+    
+   },
+    {
+     name: 'HRM Limonge France Kinge ',
+     role: 'Chief Bwiteva Vilage',
+     img:'assets/chief2.jpeg',
+    
+   },
+    {
+     name: 'HRM Nango Beckly ',
+     role: 'Chief of Monde Village',
+     img:'assets/chief3.jpeg',
+    
+   },
+   {
+     name: 'HRM Sam Mafany Luma ',
+     role: 'Chief of Limbola',
+     img:'assets/chief6.jpeg',
+    
+   },
+    {
+     name: 'HRM Eward Molinge ',
+     role: 'Chief of Upper Muea',
+     img:'assets/chief5.jpeg',
+    
+   },
+    {
+     name: 'HRM Donald Likine ',
+     role: 'Chief of Bojoke Village',
+     img:'assets/chief8.jpeg',
+    
+   },
+   
+    {
+     name: 'HRM Rudolf Esoke Sone II ',
+     role: 'Chief of Malende Village',
+     img:'assets/chief7.jpeg',
+    
+   },
+      {
+     name: 'HRM Johnson Njombe Njoke ',
+     role: 'Chief of Wokaka',
+     img:'assets/chief11.jpeg',
+    
+   },
+   
+    {
+     name: 'HRM Etoni Moka ',
+     role: 'Chief of Wosenge Village',
+     img:'assets/chief9.jpeg',
+    
+   },
+    {
+     name: 'HRM Effeme Nganje Francis ',
+     role: 'Chief of Ikata Village',
+     img:'assets/chief10.jpeg',
+    
+   },
+ 
+    {
+     name: 'HRM Elias Mbake ',
+     role: 'Chief of Boana Village',
+     img:'assets/chief12.jpeg',
+    
+   },
+    {
+     name: 'HRM Kale David ',
+     role: 'Chief Masone Village',
+     img:'assets/chief13.jpeg',
+    
+   },
+    {
+     name: 'HRM Likowo Denis Melombe ',
+     role: 'Chief of Munyenge Village',
+     img:'assets/chief14.jpeg',
+    
+    
+   },
+    {
+     name: 'HRM Ekoka Molindo ',
+     role: 'Chief of Mondoli',
+     img:'assets/chief15.jpeg',
+    
+   },
+    {
+     name: 'HRM George Malumbe Dikanjo ',
+     role: 'Chief of Wovia',
+     img:'assets/chief16.jpeg',
+    
+   },
+    {
+     name: 'HRM Mbua Peter Mokte ',
+     role: 'Chief of Bafia Village',
+     img:'assets/chief17.jpeg',
+    
+   },
+    {
+     name: 'HRM Teke Oscar Etute',
+     role: 'Chief of Wonya Nango Village ',
+     img:'assets/chief18.jpeg',
+    
+   },
+   
+    {
+     name: 'HRM Janea Ndoke Ngonja Philip',
+     role: 'Chief of Mpundy Balong',
+     img:'assets/chief19.jpeg',
+    
+   },
+    {
+     name: 'HRM Peter Ekema',
+     role: 'Chief of Soppo Likoko',
+     img:'assets/chief20.jpeg',
+    
+   },
+    {
+     name: 'HRM Thomas Elinge Ndotoh',
+     role: 'Chief of Ewili Village',
+     img:'assets/chief21.jpeg',
+    
+   },
+    {
+     name: 'HRM Mbua Mokofe Emerson ',
+     role: 'Chief of Wokoko Village',
+     img:'assets/chief22.jpeg',
+    
+   },
+    {
+     name: 'HRM Br. Elive Esimboe',
+     role: 'Chief Ewomgo Village ',
+     img:'assets/chief23.jpeg',
+    
+   },
+    {
+     name: 'HRM David Ewome Mokosa ',
+     role: 'Chief of Bwitingi Village',
+     img:'assets/chief24.jpeg',
+    
+   }
+ 
+  
+ 
+  
+  
+    
+ ];
 
 }
   

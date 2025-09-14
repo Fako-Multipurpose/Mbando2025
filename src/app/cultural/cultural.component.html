@@ -26,7 +26,7 @@
 
 
 <section class="info-strip">
-  <h2 class="section-title">Our Cultural <span style="text-decoration: underline; color: #38ad4f;">Pillars</span> </h2>
+  <h2 class="section-title" style="color: #25993c;">Our Cultural <span style="text-decoration: underline; color: #38ad4f;">Pillars</span> </h2>
   <div class="features" >
       <div class="feature-card">
       <img  src="assets/chiefEsuka.jpeg" alt="Chief of Buea">
@@ -54,7 +54,7 @@
 
 <section id="paramount-chiefs" class="paramount-chiefs-section">
   <div class="section-header">
-    <h2 class="section-title">Paramount Chiefs of Fako</h2>
+    <h2 class="section-title" style="color: #25993c;">Paramount <span style="text-decoration: underline; color: #38ad4f;">Chiefs of Fako</span></h2>
     <p class="section-intro">
       Honoring the esteemed leaders who preserve tradition, culture, and unity within the Fako community.
     </p>
@@ -107,7 +107,7 @@ His status, His Royal Majesty, above all, expresses God's ultimate authority. To
 
  <section>
     <h1 style="text-align: center; color: #4ac462;">Mbando Ya Hvako <span class="underline" style="color: #25993c;">Culture</span></h1>
-    <P style="text-align: center;">The  central vision of a new era for Fako is the proposed construction of the  Fako Multipurpose Cultural Center, FMCC. The FMCC is envisioned to become a beacon for the mobilisation of unity(Molatako)among the Fako people . It will be a cultural village aimed at promoting  national peace through the  respect of cultural diversity, and  tolerance.
+    <P style="text-align: center;">The  central vision of a new era for Fako is the proposed construction of the  Fako Multipurpose Cultural Center, FMCC. The FMCC is envisioned to become a beacon for the mobilisation of unity (Molatako) among the Fako people . It will be a cultural village aimed at promoting  national peace through the  respect of cultural diversity, and  tolerance.
     <div class="look" >
       <div  class="Cultural-carousel" >
         <div class="container" style="height: 400px;">
@@ -172,16 +172,24 @@ His status, His Royal Majesty, above all, expresses God's ultimate authority. To
   </div>
 </section>
 
-<section class="theme-audio-section" [class.dark-mode]="isDarkMode">
-  <div class="top-bar">
-    <button (click)="toggleTheme()">
-      {{ isDarkMode ? '🌙 Dark Mode' : '☀️ Light Mode' }}
-    </button>
 
-   
+
+  <!-- ===================== ROYAL FACES SECTION ===================== -->
+<section id="royal-faces" style="padding: 80px 10%; background: #f7fdf9;">
+  <h2 style="text-align: center; font-size: 2.5rem; font-weight: bold; color: #064420; margin-bottom: 50px;">
+    Royal Promotters of the Mbando/FMCC Vision
+  </h2>
+
+  <div class="royal-grid">
+    <div class="royal-card" *ngFor="let royal of royalFaces" [@fadeSlide]>
+      <div class="royal-img">
+        <img [src]="royal?.img" [alt]="royal?.name">
+      </div>
+      <h3>{{ royal?.name }}</h3>
+      <p>{{ royal?.role }}</p>
+    </div>
   </div>
-
-
+</section>
 
 
 
