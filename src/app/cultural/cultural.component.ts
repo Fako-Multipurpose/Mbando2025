@@ -163,7 +163,7 @@ toggleAudio() {
   },
   {
     title: 'Fontele dance',
-    image: 'assets/mbando pictures fix/200A5108.jpg',
+    image: 'assets/mbando small size pix/DSC04337.jpg',
     description: 'A sacred traditional dance  by the Mongo people.',
     expanded: false,
     details: [
