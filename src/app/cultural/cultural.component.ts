@@ -173,7 +173,7 @@ toggleAudio() {
   
    {
     title: 'Ndonge dance',
-    image: 'assets/mbando pictures fix/200A5108.jpg',
+    image: 'assets/nong.jpeg',
     description: 'Female Cult Dan of Bebunde',
     expanded: false,
     details: [
