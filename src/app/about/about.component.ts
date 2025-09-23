@@ -169,8 +169,8 @@ export class AboutComponent implements  OnDestroy {
    
   },
    {
-    name: 'HRM Limonge France Kinge ',
-    role: 'Chief Bwiteva Vilage',
+    name: 'HRM Linonge Francis Kinge ',
+    role: 'Chief Bwiteva Village',
     img:'assets/chief2.jpeg',
    
   },
@@ -398,6 +398,11 @@ export class AboutComponent implements  OnDestroy {
    { name: 'Dr. Catherine Ilimbi Enjema  ', role: 'Head of exhibitions', img: 'assets/merde2.jpeg' },
    { name: 'Princess Grayce Endeley ', role: 'Head of Fako Fabric', img: 'assets/merde1.jpeg' },
       { name: ' Mola Paul Njoh Ekumbetale ', role: 'Head of Cultural Committe', img: 'assets/merde3.jpeg' },
+      { name: ' Iya Therese Ekomboni', role: 'Princess of Ndambe Island', img: 'assets/th.jpeg' },
+      { name: ' Mola Efungani Ikome Adolph', role: '', img: 'assets/ik.jpeg' },
+      { name: ' Mola Harold Lionjo Mosinge', role: 'Administrative Assistant Mbando Steering Committee', img: 'assets/harold.jpeg' },
+      { name: ' Mola Lyonga William Mumbe', role: '', img: 'assets/person.jpeg' },
+        { name: ' Rev Genty Eyole-Njie Ndeley', role: '', img: 'assets/rev.jpeg' },
     ];
 
   /* ---------- Women and Education ---------- */
@@ -437,7 +442,7 @@ activities: Activity[] = [
   },
   {
     title: 'Youth Empowerment Initiatives',
-    description: 'Skills-building, leadership, and entrepreneurship programs that empower young people create opportunity at home.'
+    description: 'Empower young people to create Job opportunities at home'
   }
 ];
 
@@ -483,7 +488,7 @@ fakoLegends = [
   },
     {
     name: 'H.E. Elsie Ngowo Effange Mbella ',
-    role: 'FMR Director Civil Affairs Division,MINUSMA;FMR Senior Gender Adviser MONUSCO, UN Mission for Mali',
+    role: 'FMR Director Civil Affairs Division,MINUSMA;FMR Senior Gender Adviser MONUSCO, ',
     image: 'assets/mama.jpeg',
     bio: ''
   },
@@ -508,7 +513,7 @@ fakoLegends = [
   },
      {
     name: 'Prof William Nganje and Group',
-    role: 'Professor University of South Dakatho, USA',
+    role: 'North Dakota State University',
     image: 'assets/William.jpeg',
     bio: ''
   },
@@ -619,6 +624,13 @@ fakoLegends = [
     name: 'FAKOSHIP',
     role: '',
     image:'assets/fak.jpeg',
+    bio: ''
+  },
+ 
+     {
+    name: 'BIAKA UNIVERSITY',
+    role: '',
+    image:'assets/biaka.PNG',
     bio: ''
   },
  

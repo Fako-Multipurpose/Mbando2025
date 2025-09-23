@@ -239,7 +239,7 @@ backgroundUrl = 'assets/grrn.jpeg';
        url: 'assets/mbando small size pix/DSC04331.jpg'
     },
     {
-      title: 'FMCC - Fako Cultural Centre',
+      title: 'FMCC - Fako Cultural Center5',
       caption: 'A hub for community empowerment and cultural events.',
        url: 'assets/Mbando/3D4A9376.JPG'
     },

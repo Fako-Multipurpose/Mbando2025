@@ -329,7 +329,7 @@ fakoLegends = [
    },
    {
      name: 'HRM Etina Monono ',
-     role: 'Chief of Soppo',
+     role: 'Chief of Great Soppo',
      img:'assets/chief4.jpeg',
     
    },
@@ -340,7 +340,7 @@ fakoLegends = [
    },
    { 
      name: 'HRM Otto Molive Molungu', 
-     role: 'President of the Fako Chiefs', 
+     role: 'President of the Fako Chiefs and Chief of Batoke', 
      img: 'assets/otto.PNG' 
    },
    { 
@@ -446,7 +446,7 @@ fakoLegends = [
     
    },
     {
-     name: 'HRM Eward Molinge ',
+     name: 'HRM Edward Molinge ',
      role: 'Chief of Upper Muea',
      img:'assets/chief5.jpeg',
     
