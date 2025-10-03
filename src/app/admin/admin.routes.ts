@@ -6,15 +6,15 @@ import { DonationsComponent } from './donations/donations.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
 import { ContComponent } from './cont/cont.component';
 import { NoteComponent } from './note/note.component';
-import { AdminAuthGuard } from '../guards/admin-auth.guard'; 
+import { AdminAuthGuard } from '../guards/admin-auth.guard';
 import { CredentialsComponent } from '../credentials/credentials.component';
 
 export const adminRoutes: Routes = [
   { path: 'admin-login', component: CredentialsComponent }, // login page
   {
     path: '',
-    component: CredentialsComponent,
-    canActivate: [AdminAuthGuard], // protect all admin pages
+    component: AdminLayoutComponent,   // 👈 Use layout instead of Credentials
+    canActivate: [AdminAuthGuard],     // protect all admin pages
     children: [
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
       { path: 'dashboard', component: DashboardComponent },
